@@ -2,7 +2,7 @@
 
 ![Benfica GitHub stats](https://github-readme-stats.vercel.app/api?username=benfic4rthur&show_icons=true&theme=dracula&count_private=true)
 
-## Tecnologias que eu uso no meu dia
+## My Skills
 
 <div style="display: inline_block">
   <img align="center" alt="JAVA" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />

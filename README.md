@@ -17,3 +17,4 @@
 </div><br/>
 
 Sou desenvolvedor PHP fazem 12 anos, mas não atuo na area fazem quase 9 (HEHE), um certo dia me surgiu uma oportunidade então eu decidi me aventurar nessa loucura do mundo do JAVA, e advinha? Eu estou amando!
+Meu repositórios serão focados em auxiliar os novatos e pouco experientes, e caso tenha alguma dúvida em algo, chame ai!

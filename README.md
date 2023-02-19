@@ -60,6 +60,6 @@
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg" /></p> 
 <br></div>
   
-Sou desenvolvedor PHP faz 12 anos, um certo dia (alguns anos atras), me surgiu uma oportunidade então eu decidi me aventurar nessa loucura do mundo do JAVA, e advinha? Eu estou amando!
+Sou desenvolvedor PHP faz 12 anos, um certo dia (um tempo atras), me surgiu uma oportunidade então eu decidi me aventurar nessa loucura do mundo do JAVA, e advinha? Eu estou amando!
 Meus repositórios públicos(Sim, meu github é novo, até então eu não versionava por aqui e nem tinha interesse em ter um perfil, hue)serão focados em auxiliar os novatos e pouco experientes, e caso tenha alguma dúvida em algo, chame ai! 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>

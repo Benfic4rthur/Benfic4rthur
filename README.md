@@ -60,6 +60,6 @@
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg" /></p> 
 <br></div>
   
-Meu nome é Arthur Graff, sou um desenvolvedor Java/PHP e analista de suporte com 12 anos de experiencia na area. Como autista e autodidata, estou animado em compartilhar meus conhecimentos e ajudar novos desenvolvedores a aprimorar suas habilidades. Meu objetivo é criar repositórios para ajudar novatos do mundo Java e colaborar com outros desenvolvedores talentosos na plataforma do GitHub. Estou comprometido em criar soluções inovadoras e impactantes, e contribuir para tornar o mundo da tecnologia ainda mais inclusivo e acessível para todos.
+Meu nome é Arthur Graff, sou um desenvolvedor Java/PHP e analista de suporte com 12 anos de experiência na área. Como autista e autodidata, estou animado em compartilhar meus conhecimentos e ajudar novos desenvolvedores a aprimorar suas habilidades. Meu objetivo é criar repositórios para ajudar novatos do mundo Java e colaborar com outros desenvolvedores talentosos na plataforma do GitHub. Estou comprometido em criar soluções inovadoras e impactantes, e contribuir para tornar o mundo da tecnologia ainda mais inclusivo e acessível para todos.
   
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>

@@ -63,3 +63,34 @@
 Meu nome é Arthur Graff, sou um desenvolvedor Java/PHP e analista de suporte com 12 anos de experiência na área. Como autista e autodidata, estou animado em compartilhar meus conhecimentos e ajudar novos desenvolvedores a aprimorar suas habilidades. Meu objetivo é criar repositórios para ajudar novatos do mundo Java e colaborar com outros desenvolvedores talentosos na plataforma do GitHub. Estou comprometido em criar soluções inovadoras e impactantes, e contribuir para tornar o mundo da tecnologia ainda mais inclusivo e acessível para todos.
   
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+  
+  <p>Commits em todos os repositórios: <span id="commitCount"></span></p>
+// Substitua <SEU-USUÁRIO> e <SEU-TOKEN> pelo seu nome de usuário e token do GitHub
+const octokit = new Octokit({ auth: "<SEU-TOKEN>" });
+
+octokit.repos.listForAuthenticatedUser({ per_page: 100 })
+  .then(response => {
+    let totalCount = 0;
+    response.data.forEach(repo => {
+      octokit.repos.getCommitActivityStats({
+        owner: repo.owner.login,
+        repo: repo.name
+      })
+        .then(response => {
+          totalCount += response.data.reduce((acc, week) => acc + week.total, 0);
+          document.getElementById('commitCount').textContent = totalCount;
+        })
+        .catch(error => console.error(error));
+    });
+  })
+  .catch(error => console.error(error));
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+span {
+  color: #0366d6;
+}
+
+  

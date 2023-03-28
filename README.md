@@ -2,7 +2,6 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+IS+ARTHUR+GRAFF;BE+WELCOME!+:%29)](https://git.io/typing-svg)
 
-
 <div align="center">  
  <img width="49%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Benfic4rthur&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Arthur Graff github stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Benfic4rthur&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
@@ -12,7 +11,6 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Benfic4rthur&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
 </p>
-
 
 <div align="center"> 
 <a href="https://www.linkedin.com/in/arthur-guimar%C3%A3es-52679a268/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"</a>

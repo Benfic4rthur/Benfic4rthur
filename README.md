@@ -7,10 +7,7 @@
   <img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Benfic4rthur&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
 </div>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Benfic4rthur&bg_color=000000&color=164fc0&line=f5f5f5&point=757070&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Benfic4rthur&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
-</p>
+
 
 <div align="center"> 
 <a href="https://www.linkedin.com/in/arthur-guimar%C3%A3es-52679a268/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"</a>

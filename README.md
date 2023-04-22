@@ -1,7 +1,3 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+IS+ARTHUR+GRAFF;BE+WELCOME!+:%29)](https://git.io/typing-svg)
-
 <div align="center">  
  <img width="49%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Benfic4rthur&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Arthur Graff github stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Benfic4rthur&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
@@ -60,5 +56,3 @@
 <br></div>
   
 Meu nome é Arthur Graff, sou um desenvolvedor Java/PHP/Delphi e analista de suporte com 12 anos de experiência na área. Como autista e autodidata, estou animado em compartilhar meus conhecimentos e ajudar novos desenvolvedores a aprimorar suas habilidades. Meu objetivo é criar repositórios para ajudar novatos do mundo Java e colaborar com outros desenvolvedores talentosos na plataforma do GitHub. Estou comprometido em criar soluções inovadoras e impactantes, e contribuir para tornar o mundo da tecnologia ainda mais inclusivo e acessível para todos.
-  
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>

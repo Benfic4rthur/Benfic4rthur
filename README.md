@@ -15,7 +15,6 @@
   
 
 ### Main skills:
-<p style="font-size:5px">(Linguagens de programação/bibliotecas e frameworks)</p>
 <div style="display: inline-block; width: 350px;">
   <img align="center" alt="JAVA" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
   <img align="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>

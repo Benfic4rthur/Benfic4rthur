@@ -16,7 +16,7 @@
 
 ### Main skills:
 <div style="display: inline-block; width: 350px;">
-  <a href="https://www.java.com/" target="_blank" onmouseover="this.style.padding='15px'"><img align="center" alt="JAVA" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/></a>
+  <a href="https://www.java.com/" target="_blank"><img align="center" alt="JAVA" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/></a>
    <a href="https://www.php.net/"><img align="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/></a>
   <a href="https://www.embarcadero.com/products/delphi"><img align="center" alt="Delphi" src="https://img.shields.io/badge/Delphi-B22222?style=for-the-badge&logo=delphi&logoColor=white"/></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /></a>

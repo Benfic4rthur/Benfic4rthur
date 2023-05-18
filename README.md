@@ -61,6 +61,7 @@
 <a href="https://prettier.io/"><img align="center" alt="Prettier" src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"/></a>
 <a href="https://trello.com/"><img align="center" alt="Trello" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"></a>
  <a href="https://babeljs.io/"><img align="center" alt="Babel" src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"></a>
+ <a href="https://www.npmjs.com/"><img align="center" alt="Npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"></a>
 </p>
 
 <div align="center">

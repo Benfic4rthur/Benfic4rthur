@@ -63,6 +63,7 @@
  <a href="https://babeljs.io/"><img align="center" alt="Babel" src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"></a>
  <a href="https://www.npmjs.com/"><img align="center" alt="Npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"></a>
  <a href="https://www.postman.com/"><img align="center" alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"></a>
+ <a href="https://reactrouter.com/en/main"><img align="center" alt="React Router" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"></a>
 </p>
 
 <div align="center">

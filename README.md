@@ -49,6 +49,7 @@
 <a href="https://www.mongodb.com/"><img  align="center" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoD"></a>
 <a href="https://www.microsoft.com/en-us/sql-server"><img align="center" src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="microsoft sql server"></a>
 <a href="https://hibernate.org/"><img  align="center" alt="Hibernate" src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white"></a>
+<a href="https://firebase.google.com/"><img  align="center" alt="Firebase" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black"></a>
 <a href="https://www.embarcadero.com/products/delphi"><img align="center" alt="Embarcadero" src="https://img.shields.io/badge/Delphi_RAD_Studio-B22222?style=for-the-badge&logo=delphi&logoColor=white"></a>
 <a href="https://netbeans.apache.org/"><img align="center" alt="NetBeans" src="https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white"/></a>
 <a href="https://www.eclipse.org/"><img align="center" alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/></a>

@@ -31,7 +31,9 @@
   <a href="https://jquery.com/"><img align="center" alt="Jquery" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
   <a href="https://www.json.org/"><img align="center" alt="Json" src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"/></a>
   <a href="https://getbootstrap.com/"><img align="center" alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/></a>
-  <a href="https://tailwindcss.com/"><img align="center" alt="TailWind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/></a>
+  <a href="https://tailwindcss.com/"><img align="center" alt="TailWind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+ </a>
+ <a href="https://styled-components.com/"><img align="center" alt="Styled Components" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
   <a href="https://ant.design/"><img align="center" alt="AntDesign" src="https://img.shields.io/badge/Ant%20Design-1890FF?style=for-the-badge&logo=antdesign&logoColor=white"/></a>
   <a href="https://maven.apache.org/"><img align="center" alt="Apache Maven" src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/></a>
   <a href="https://fontawesome.com/"><img align="center" alt="Font Awesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"/></a>

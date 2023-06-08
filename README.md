@@ -40,6 +40,7 @@
   <a href="https://maven.apache.org/"><img align="center" alt="Apache Maven" src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/></a>
   <a href="https://fontawesome.com/"><img align="center" alt="Font Awesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"/></a>
   <a href="https://pages.github.com/"><img  align="center" alt="GitPages" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/></a>
+   <a href="https://vercel.com/benfic4rthur"><img align="center" alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </div>
   
   
@@ -69,7 +70,7 @@
  <a href="https://www.npmjs.com/"><img align="center" alt="Npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"></a>
  <a href="https://yarnpkg.com/"><img align="center" alt="Yarn" src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"></a>
  <a href="https://www.postman.com/"><img align="center" alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"></a>
- <a href="https://vercel.com/benfic4rthur"><img align="center" alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+
 </p>
 
 <div align="center">

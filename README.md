@@ -77,3 +77,7 @@
 <p align="centre"><b>Visitors Count</b></p>  
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg" /></p> 
 <br></div>
+<br>
+<div align="center">
+ ![Benfic4rthur's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Benfic4rthur&layout=compact&langs_count=8&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117)
+<br></div>

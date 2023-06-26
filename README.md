@@ -1,12 +1,7 @@
 <div align="center">  
  <img width="49%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Benfic4rthur&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Arthur Graff github stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Benfic4rthur&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
- [![Benfic4rthur's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Benfic4rthur&layout=compact&langs_count=8&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117)]
 </div>
-<!--[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Benfic4rthur&bg_color=000000&color=164fc0&line=f5f5f5&point=757070&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Benfic4rthur&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
-</p>
 
 <div align="center"> 
 <a href="https://www.instagram.com/if.benfica/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
@@ -76,3 +71,7 @@
 <p align="centre"><b>Visitors Count</b></p>  
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg" /></p> 
 <br></div>
+<!--[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Benfic4rthur&bg_color=000000&color=164fc0&line=f5f5f5&point=757070&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Benfic4rthur&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
+</p>

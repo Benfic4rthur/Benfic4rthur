@@ -64,7 +64,7 @@
 
 <div align="center">
 <p align="centre"><b>Visitors Count</b></p>  
-<a href="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg"><p align="center"><img align="center" src="https://profile-counter.glitch.me/%7BBenfic4rthur%7D/count.svg" /></p></a>
+<a href="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg"><p align="center"><img align="center" src="https://profile-counter.glitch.me/{Benfic4rthur}/count.svg" /></p></a>
 <br></div>
 <!--[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Benfic4rthur&bg_color=000000&color=164fc0&line=f5f5f5&point=757070&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 <p align="center">

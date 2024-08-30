@@ -5,6 +5,7 @@
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">
+ <a href="https://www.python.org/about/" target="_blank"> <img align="center" alt="PYTHON" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/></a>
   <a href="https://www.java.com/" target="_blank"><img align="center" alt="JAVA" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/></a>
    <a href="https://www.php.net/"><img align="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/></a>
   <a href="https://www.embarcadero.com/products/delphi"><img align="center" alt="Delphi" src="https://img.shields.io/badge/Delphi-B22222?style=for-the-badge&logo=delphi&logoColor=white"/></a>

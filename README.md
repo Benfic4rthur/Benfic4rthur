@@ -1,4 +1,4 @@
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Benfic4rthur&theme=tokyonight)
+![GitHub Contributions](https://ssr-contributions-svg.vercel.app/_/Benfic4rthur?chart=calendar&format=svg&theme=green)
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">

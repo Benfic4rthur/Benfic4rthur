@@ -1,4 +1,4 @@
-
+![GitHub Contributions](./assets/contributions.svg)
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">

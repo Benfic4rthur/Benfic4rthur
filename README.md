@@ -1,4 +1,14 @@
-![GitHub Contributions](./assets/contributions.svg)
+## GitHub Activity
+
+<div align="center">
+
+  <img src="./assets/contributions.svg" alt="Calendário de contribuições do GitHub" width="100%" />
+
+  <br/>
+
+  <sub>Contribuições dos últimos 12 meses, atualizadas automaticamente pelo GitHub Actions.</sub>
+
+</div>
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">

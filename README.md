@@ -28,6 +28,7 @@
   <a href="https://fontawesome.com/"><img align="center" alt="Font Awesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"/></a>
   <a href="https://pages.github.com/"><img  align="center" alt="GitPages" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/></a>
    <a href="https://vercel.com/benfic4rthur"><img align="center" alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://www.electronjs.org/" target="_blank"><img align="center" alt="Electron.js" src="https://img.shields.io/badge/Electron-%23191970.svg?style=for-the-badge&logo=Electron&logoColor=white"/></a>
 </div>
   
   

@@ -1,4 +1,4 @@
-![GitHub Contributions](https://ssr-contributions-svg.vercel.app/_/Benfic4rthur?chart=calendar&format=svg&theme=green)
+![GitHub Contributions](https://ssr-contributions-svg.vercel.app/_/Benfic4rthur?chart=calendar&format=svg&theme=dark)
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">

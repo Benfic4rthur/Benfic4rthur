@@ -1,4 +1,4 @@
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Benfic4rthur&theme=github_dark)
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Benfic4rthur&theme=tokyonight)
 
 ## Main skills:
 <div style="display: inline-block; width: 350px;">

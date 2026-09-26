@@ -188,17 +188,17 @@ ${monthLabels.join('\n')}
 </svg>
 `;
 
-const output = path.resolve('assets/contributions.svg');
+const output = path.resolve('assets/contributions-matrix.svg');
 fs.mkdirSync(path.dirname(output), { recursive: true });
 fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
   const cacheKey = `matrix-v1-${latestDay.date}-${calendar.totalContributions}`;
-  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions.svg?v=${cacheKey}`;
+  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-matrix.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(
-    /(<img src=")(?:\.\/assets\/contributions\.svg|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions\.svg(?:\?v=[^"]*)?)(" alt="Animated GitHub contribution activity")/,
+    /(<img src=")(?:\.\/assets\/contributions-matrix\.svg|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-matrix\.svg(?:\?v=[^"]*)?)(" alt="Animated GitHub contribution activity")/,
     `$1${imageUrl}$2`,
   );
   if (updatedReadme !== readme) fs.writeFileSync(readmePath, updatedReadme, 'utf8');

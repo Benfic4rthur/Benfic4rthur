@@ -61,11 +61,11 @@ const days = allDays.slice(-91);
 if (days.length < 2) throw new Error('Dados insuficientes para gerar o gráfico');
 
 const width = 900;
-const height = 304;
+const height = 278;
 const left = 54;
 const right = 26;
 const top = 92;
-const bottom = 46;
+const bottom = 42;
 const plotWidth = width - left - right;
 const plotHeight = height - top - bottom;
 const baseline = top + plotHeight;
@@ -255,7 +255,7 @@ fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `layout-v3-${latestDay.date}-${calendar.totalContributions}`;
+  const cacheKey = `layout-v4-${latestDay.date}-${calendar.totalContributions}`;
   const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(

@@ -245,7 +245,7 @@ ${tooltipPoints}
 
 ${monthLabels.join('\n')}
 
-<text x="${width - right}" y="${height - 18}" text-anchor="end" class="axis-label">Hover a point for details · click from the README to open the interactive SVG</text>
+<text x="${width - right}" y="${height - 6}" text-anchor="end" class="axis-label">Hover a point for details · click from the README to open the interactive SVG</text>
 </svg>
 `;
 
@@ -255,7 +255,7 @@ fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `${latestDay.date}-${calendar.totalContributions}`;
+  const cacheKey = `layout-v2-${latestDay.date}-${calendar.totalContributions}`;
   const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(

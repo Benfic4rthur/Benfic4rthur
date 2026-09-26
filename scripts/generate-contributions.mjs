@@ -136,10 +136,16 @@ const tooltipPoints = points.map((point, index) => {
   const tooltipHeight = 44;
   const tipX = index < 8 ? 10 : index > points.length - 9 ? -tooltipWidth - 10 : -tooltipWidth / 2;
   const tipY = point.y < top + 58 ? 14 : -tooltipHeight - 14;
+  const rise = baseline - point.y;
   const countLabel = `${number.format(point.count)} contribution${point.count === 1 ? '' : 's'}`;
   return `
-<g class="point" transform="translate(${point.x.toFixed(2)} ${point.y.toFixed(2)})">
-  <circle class="hit" r="9" />
+<g id="point-${index}" class="point" transform="translate(${point.x.toFixed(2)} ${point.y.toFixed(2)})">
+  <circle class="hit" r="10" />
+  <line class="hover-guide" x1="0" y1="${rise.toFixed(2)}" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="${rise.toFixed(2)}" r="4.6">
+    <set attributeName="opacity" to="1" begin="point-${index}.mouseover" end="point-${index}.mouseout" />
+    <animate attributeName="cy" from="${rise.toFixed(2)}" to="0" dur=".18s" begin="point-${index}.mouseover" fill="freeze" />
+  </circle>
   <circle class="dot" r="${point.count > 0 ? 2.6 : 1.8}" />
   <g class="tooltip" transform="translate(${tipX.toFixed(2)} ${tipY.toFixed(2)})">
     <rect width="${tooltipWidth}" height="${tooltipHeight}" rx="7" />
@@ -180,11 +186,14 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${
   .axis-label { fill: #6e7681; font: 9px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
   .dot { fill: #39d353; opacity: .48; transition: opacity .15s ease, transform .15s ease; transform-box: fill-box; transform-origin: center; }
   .hit { fill: transparent; }
+  .hover-guide { stroke: #39d353; stroke-width: 1; stroke-dasharray: 3 3; opacity: 0; transition: opacity .12s ease; }
+  .hover-marker { fill: #7ee787; stroke: #0d1117; stroke-width: 2; opacity: 0; filter: url(#glow); }
   .tooltip { opacity: 0; pointer-events: none; transition: opacity .12s ease; }
   .tooltip rect { fill: #161b22; stroke: #30363d; }
   .tooltip-date { fill: #8b949e; font: 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
   .tooltip-count { fill: #f0f6fc; font: 700 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
   .point:hover .tooltip { opacity: 1; }
+  .point:hover .hover-guide { opacity: .7; }
   .point:hover .dot { opacity: 1; transform: scale(1.9); }
   @media (prefers-reduced-motion: reduce) {
     .motion-marker { display: none; }

@@ -10,10 +10,10 @@
 
 <br/>
 
-<img src="./assets/tech-ecosystem.svg" alt="Technology ecosystem" width="100%" />
+<img src="./assets/tech-ecosystem-v2.svg" alt="Technology ecosystem" width="100%" />
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Benfic4rthur&label=PROFILE%20VIEWS&style=flat-square&color=238636" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=Benfic4rthur&label=PROFILE%20VIEWS&style=flat-square&color=238636&base=23300" alt="Profile views" />
 
 </div>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="304" viewBox="0 0 900 304" role="img" aria-label="Animated GitHub contribution activity for Benfic4rthur">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="278" viewBox="0 0 900 278" role="img" aria-label="Animated GitHub contribution activity for Benfic4rthur">
 <defs>
   <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#39d353" stop-opacity="0.46" />
@@ -37,7 +37,7 @@
   }
 </style>
 
-<rect class="bg" x=".5" y=".5" width="899" height="303" rx="12" />
+<rect class="bg" x=".5" y=".5" width="899" height="277" rx="12" />
 
 <text x="22" y="29" class="title">Contribution Pulse</text>
 <text x="22" y="47" class="subtitle">Daily GitHub activity · last 90 days</text>
@@ -48,10 +48,10 @@
 <text x="804" y="28" class="live">UPDATED DAILY</text>
 
 <g transform="translate(22 59)">
-  <text x="0" y="15" class="stat-value">2,050</text>
+  <text x="0" y="15" class="stat-value">2,055</text>
   <text x="0" y="29" class="stat-label">LAST 12 MONTHS</text>
 
-  <text x="154" y="15" class="stat-value">2,048</text>
+  <text x="154" y="15" class="stat-value">2,053</text>
   <text x="154" y="29" class="stat-label">LAST 90 DAYS</text>
 
   <text x="290" y="15" class="stat-value">16</text>
@@ -60,36 +60,36 @@
   <text x="408" y="15" class="stat-value">469</text>
   <text x="408" y="29" class="stat-label">BEST DAY · Sep 18</text>
 
-  <text x="580" y="15" class="stat-value">23</text>
+  <text x="580" y="15" class="stat-value">28</text>
   <text x="580" y="29" class="stat-label">LATEST · Sep 26</text>
 </g>
 
 
-<line x1="54" y1="258.00" x2="874" y2="258.00" class="grid" />
-<text x="44" y="262.00" text-anchor="end" class="axis-label">0</text>
+<line x1="54" y1="236.00" x2="874" y2="236.00" class="grid" />
+<text x="44" y="240.00" text-anchor="end" class="axis-label">0</text>
 
-<line x1="54" y1="216.50" x2="874" y2="216.50" class="grid" />
-<text x="44" y="220.50" text-anchor="end" class="axis-label">117</text>
+<line x1="54" y1="200.00" x2="874" y2="200.00" class="grid" />
+<text x="44" y="204.00" text-anchor="end" class="axis-label">117</text>
 
-<line x1="54" y1="175.00" x2="874" y2="175.00" class="grid" />
-<text x="44" y="179.00" text-anchor="end" class="axis-label">235</text>
+<line x1="54" y1="164.00" x2="874" y2="164.00" class="grid" />
+<text x="44" y="168.00" text-anchor="end" class="axis-label">235</text>
 
-<line x1="54" y1="133.50" x2="874" y2="133.50" class="grid" />
-<text x="44" y="137.50" text-anchor="end" class="axis-label">352</text>
+<line x1="54" y1="128.00" x2="874" y2="128.00" class="grid" />
+<text x="44" y="132.00" text-anchor="end" class="axis-label">352</text>
 
 <line x1="54" y1="92.00" x2="874" y2="92.00" class="grid" />
 <text x="44" y="96.00" text-anchor="end" class="axis-label">469</text>
 
-<path d="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,249.86 L874.00,258 L54.00,258 Z" fill="url(#areaGradient)" opacity="0">
+<path d="M54.00,236.00 L63.11,236.00 L72.22,236.00 L81.33,236.00 L90.44,236.00 L99.56,236.00 L108.67,236.00 L117.78,236.00 L126.89,236.00 L136.00,236.00 L145.11,236.00 L154.22,236.00 L163.33,236.00 L172.44,236.00 L181.56,236.00 L190.67,236.00 L199.78,236.00 L208.89,236.00 L218.00,236.00 L227.11,236.00 L236.22,236.00 L245.33,236.00 L254.44,236.00 L263.56,236.00 L272.67,236.00 L281.78,236.00 L290.89,236.00 L300.00,236.00 L309.11,236.00 L318.22,236.00 L327.33,236.00 L336.44,236.00 L345.56,236.00 L354.67,236.00 L363.78,236.00 L372.89,236.00 L382.00,236.00 L391.11,236.00 L400.22,236.00 L409.33,236.00 L418.44,236.00 L427.56,236.00 L436.67,236.00 L445.78,236.00 L454.89,236.00 L464.00,236.00 L473.11,236.00 L482.22,236.00 L491.33,236.00 L500.44,236.00 L509.56,236.00 L518.67,236.00 L527.78,236.00 L536.89,236.00 L546.00,236.00 L555.11,236.00 L564.22,236.00 L573.33,236.00 L582.44,236.00 L591.56,236.00 L600.67,236.00 L609.78,236.00 L618.89,236.00 L628.00,236.00 L637.11,236.00 L646.22,236.00 L655.33,236.00 L664.44,236.00 L673.56,236.00 L682.67,236.00 L691.78,236.00 L700.89,236.00 L710.00,236.00 L719.11,236.00 L728.22,236.00 L737.33,235.08 L746.44,234.77 L755.56,232.32 L764.67,203.76 L773.78,171.52 L782.89,194.24 L792.00,163.54 L801.11,92.00 L810.22,204.38 L819.33,201.30 L828.44,225.87 L837.56,165.07 L846.67,168.45 L855.78,200.69 L864.89,225.25 L874.00,227.40 L874.00,236 L54.00,236 Z" fill="url(#areaGradient)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="1.6s" fill="freeze" />
 </path>
 
-<path d="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,249.86" pathLength="1000" fill="none" stroke="#39d353" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1000" stroke-dashoffset="1000">
+<path d="M54.00,236.00 L63.11,236.00 L72.22,236.00 L81.33,236.00 L90.44,236.00 L99.56,236.00 L108.67,236.00 L117.78,236.00 L126.89,236.00 L136.00,236.00 L145.11,236.00 L154.22,236.00 L163.33,236.00 L172.44,236.00 L181.56,236.00 L190.67,236.00 L199.78,236.00 L208.89,236.00 L218.00,236.00 L227.11,236.00 L236.22,236.00 L245.33,236.00 L254.44,236.00 L263.56,236.00 L272.67,236.00 L281.78,236.00 L290.89,236.00 L300.00,236.00 L309.11,236.00 L318.22,236.00 L327.33,236.00 L336.44,236.00 L345.56,236.00 L354.67,236.00 L363.78,236.00 L372.89,236.00 L382.00,236.00 L391.11,236.00 L400.22,236.00 L409.33,236.00 L418.44,236.00 L427.56,236.00 L436.67,236.00 L445.78,236.00 L454.89,236.00 L464.00,236.00 L473.11,236.00 L482.22,236.00 L491.33,236.00 L500.44,236.00 L509.56,236.00 L518.67,236.00 L527.78,236.00 L536.89,236.00 L546.00,236.00 L555.11,236.00 L564.22,236.00 L573.33,236.00 L582.44,236.00 L591.56,236.00 L600.67,236.00 L609.78,236.00 L618.89,236.00 L628.00,236.00 L637.11,236.00 L646.22,236.00 L655.33,236.00 L664.44,236.00 L673.56,236.00 L682.67,236.00 L691.78,236.00 L700.89,236.00 L710.00,236.00 L719.11,236.00 L728.22,236.00 L737.33,235.08 L746.44,234.77 L755.56,232.32 L764.67,203.76 L773.78,171.52 L782.89,194.24 L792.00,163.54 L801.11,92.00 L810.22,204.38 L819.33,201.30 L828.44,225.87 L837.56,165.07 L846.67,168.45 L855.78,200.69 L864.89,225.25 L874.00,227.40" pathLength="1000" fill="none" stroke="#39d353" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1000" stroke-dashoffset="1000">
   <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="1.8s" fill="freeze" />
 </path>
 
 
-<g id="point-0" class="point" transform="translate(54.00 258.00)">
+<g id="point-0" class="point" transform="translate(54.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -105,7 +105,7 @@
   <title>Jun 28, 2026: 0 contributions</title>
 </g>
 
-<g id="point-1" class="point" transform="translate(63.11 258.00)">
+<g id="point-1" class="point" transform="translate(63.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -121,7 +121,7 @@
   <title>Jun 29, 2026: 0 contributions</title>
 </g>
 
-<g id="point-2" class="point" transform="translate(72.22 258.00)">
+<g id="point-2" class="point" transform="translate(72.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -137,7 +137,7 @@
   <title>Jun 30, 2026: 0 contributions</title>
 </g>
 
-<g id="point-3" class="point" transform="translate(81.33 258.00)">
+<g id="point-3" class="point" transform="translate(81.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -153,7 +153,7 @@
   <title>Jul 1, 2026: 0 contributions</title>
 </g>
 
-<g id="point-4" class="point" transform="translate(90.44 258.00)">
+<g id="point-4" class="point" transform="translate(90.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -169,7 +169,7 @@
   <title>Jul 2, 2026: 0 contributions</title>
 </g>
 
-<g id="point-5" class="point" transform="translate(99.56 258.00)">
+<g id="point-5" class="point" transform="translate(99.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -185,7 +185,7 @@
   <title>Jul 3, 2026: 0 contributions</title>
 </g>
 
-<g id="point-6" class="point" transform="translate(108.67 258.00)">
+<g id="point-6" class="point" transform="translate(108.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -201,7 +201,7 @@
   <title>Jul 4, 2026: 0 contributions</title>
 </g>
 
-<g id="point-7" class="point" transform="translate(117.78 258.00)">
+<g id="point-7" class="point" transform="translate(117.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -217,7 +217,7 @@
   <title>Jul 5, 2026: 0 contributions</title>
 </g>
 
-<g id="point-8" class="point" transform="translate(126.89 258.00)">
+<g id="point-8" class="point" transform="translate(126.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -233,7 +233,7 @@
   <title>Jul 6, 2026: 0 contributions</title>
 </g>
 
-<g id="point-9" class="point" transform="translate(136.00 258.00)">
+<g id="point-9" class="point" transform="translate(136.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -249,7 +249,7 @@
   <title>Jul 7, 2026: 0 contributions</title>
 </g>
 
-<g id="point-10" class="point" transform="translate(145.11 258.00)">
+<g id="point-10" class="point" transform="translate(145.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -265,7 +265,7 @@
   <title>Jul 8, 2026: 0 contributions</title>
 </g>
 
-<g id="point-11" class="point" transform="translate(154.22 258.00)">
+<g id="point-11" class="point" transform="translate(154.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -281,7 +281,7 @@
   <title>Jul 9, 2026: 0 contributions</title>
 </g>
 
-<g id="point-12" class="point" transform="translate(163.33 258.00)">
+<g id="point-12" class="point" transform="translate(163.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -297,7 +297,7 @@
   <title>Jul 10, 2026: 0 contributions</title>
 </g>
 
-<g id="point-13" class="point" transform="translate(172.44 258.00)">
+<g id="point-13" class="point" transform="translate(172.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -313,7 +313,7 @@
   <title>Jul 11, 2026: 0 contributions</title>
 </g>
 
-<g id="point-14" class="point" transform="translate(181.56 258.00)">
+<g id="point-14" class="point" transform="translate(181.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -329,7 +329,7 @@
   <title>Jul 12, 2026: 0 contributions</title>
 </g>
 
-<g id="point-15" class="point" transform="translate(190.67 258.00)">
+<g id="point-15" class="point" transform="translate(190.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -345,7 +345,7 @@
   <title>Jul 13, 2026: 0 contributions</title>
 </g>
 
-<g id="point-16" class="point" transform="translate(199.78 258.00)">
+<g id="point-16" class="point" transform="translate(199.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -361,7 +361,7 @@
   <title>Jul 14, 2026: 0 contributions</title>
 </g>
 
-<g id="point-17" class="point" transform="translate(208.89 258.00)">
+<g id="point-17" class="point" transform="translate(208.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -377,7 +377,7 @@
   <title>Jul 15, 2026: 0 contributions</title>
 </g>
 
-<g id="point-18" class="point" transform="translate(218.00 258.00)">
+<g id="point-18" class="point" transform="translate(218.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -393,7 +393,7 @@
   <title>Jul 16, 2026: 0 contributions</title>
 </g>
 
-<g id="point-19" class="point" transform="translate(227.11 258.00)">
+<g id="point-19" class="point" transform="translate(227.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -409,7 +409,7 @@
   <title>Jul 17, 2026: 0 contributions</title>
 </g>
 
-<g id="point-20" class="point" transform="translate(236.22 258.00)">
+<g id="point-20" class="point" transform="translate(236.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -425,7 +425,7 @@
   <title>Jul 18, 2026: 0 contributions</title>
 </g>
 
-<g id="point-21" class="point" transform="translate(245.33 258.00)">
+<g id="point-21" class="point" transform="translate(245.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -441,7 +441,7 @@
   <title>Jul 19, 2026: 0 contributions</title>
 </g>
 
-<g id="point-22" class="point" transform="translate(254.44 258.00)">
+<g id="point-22" class="point" transform="translate(254.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -457,7 +457,7 @@
   <title>Jul 20, 2026: 0 contributions</title>
 </g>
 
-<g id="point-23" class="point" transform="translate(263.56 258.00)">
+<g id="point-23" class="point" transform="translate(263.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -473,7 +473,7 @@
   <title>Jul 21, 2026: 0 contributions</title>
 </g>
 
-<g id="point-24" class="point" transform="translate(272.67 258.00)">
+<g id="point-24" class="point" transform="translate(272.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -489,7 +489,7 @@
   <title>Jul 22, 2026: 0 contributions</title>
 </g>
 
-<g id="point-25" class="point" transform="translate(281.78 258.00)">
+<g id="point-25" class="point" transform="translate(281.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -505,7 +505,7 @@
   <title>Jul 23, 2026: 0 contributions</title>
 </g>
 
-<g id="point-26" class="point" transform="translate(290.89 258.00)">
+<g id="point-26" class="point" transform="translate(290.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -521,7 +521,7 @@
   <title>Jul 24, 2026: 0 contributions</title>
 </g>
 
-<g id="point-27" class="point" transform="translate(300.00 258.00)">
+<g id="point-27" class="point" transform="translate(300.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -537,7 +537,7 @@
   <title>Jul 25, 2026: 0 contributions</title>
 </g>
 
-<g id="point-28" class="point" transform="translate(309.11 258.00)">
+<g id="point-28" class="point" transform="translate(309.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -553,7 +553,7 @@
   <title>Jul 26, 2026: 0 contributions</title>
 </g>
 
-<g id="point-29" class="point" transform="translate(318.22 258.00)">
+<g id="point-29" class="point" transform="translate(318.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -569,7 +569,7 @@
   <title>Jul 27, 2026: 0 contributions</title>
 </g>
 
-<g id="point-30" class="point" transform="translate(327.33 258.00)">
+<g id="point-30" class="point" transform="translate(327.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -585,7 +585,7 @@
   <title>Jul 28, 2026: 0 contributions</title>
 </g>
 
-<g id="point-31" class="point" transform="translate(336.44 258.00)">
+<g id="point-31" class="point" transform="translate(336.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -601,7 +601,7 @@
   <title>Jul 29, 2026: 0 contributions</title>
 </g>
 
-<g id="point-32" class="point" transform="translate(345.56 258.00)">
+<g id="point-32" class="point" transform="translate(345.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -617,7 +617,7 @@
   <title>Jul 30, 2026: 0 contributions</title>
 </g>
 
-<g id="point-33" class="point" transform="translate(354.67 258.00)">
+<g id="point-33" class="point" transform="translate(354.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -633,7 +633,7 @@
   <title>Jul 31, 2026: 0 contributions</title>
 </g>
 
-<g id="point-34" class="point" transform="translate(363.78 258.00)">
+<g id="point-34" class="point" transform="translate(363.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -649,7 +649,7 @@
   <title>Aug 1, 2026: 0 contributions</title>
 </g>
 
-<g id="point-35" class="point" transform="translate(372.89 258.00)">
+<g id="point-35" class="point" transform="translate(372.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -665,7 +665,7 @@
   <title>Aug 2, 2026: 0 contributions</title>
 </g>
 
-<g id="point-36" class="point" transform="translate(382.00 258.00)">
+<g id="point-36" class="point" transform="translate(382.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -681,7 +681,7 @@
   <title>Aug 3, 2026: 0 contributions</title>
 </g>
 
-<g id="point-37" class="point" transform="translate(391.11 258.00)">
+<g id="point-37" class="point" transform="translate(391.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -697,7 +697,7 @@
   <title>Aug 4, 2026: 0 contributions</title>
 </g>
 
-<g id="point-38" class="point" transform="translate(400.22 258.00)">
+<g id="point-38" class="point" transform="translate(400.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -713,7 +713,7 @@
   <title>Aug 5, 2026: 0 contributions</title>
 </g>
 
-<g id="point-39" class="point" transform="translate(409.33 258.00)">
+<g id="point-39" class="point" transform="translate(409.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -729,7 +729,7 @@
   <title>Aug 6, 2026: 0 contributions</title>
 </g>
 
-<g id="point-40" class="point" transform="translate(418.44 258.00)">
+<g id="point-40" class="point" transform="translate(418.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -745,7 +745,7 @@
   <title>Aug 7, 2026: 0 contributions</title>
 </g>
 
-<g id="point-41" class="point" transform="translate(427.56 258.00)">
+<g id="point-41" class="point" transform="translate(427.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -761,7 +761,7 @@
   <title>Aug 8, 2026: 0 contributions</title>
 </g>
 
-<g id="point-42" class="point" transform="translate(436.67 258.00)">
+<g id="point-42" class="point" transform="translate(436.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -777,7 +777,7 @@
   <title>Aug 9, 2026: 0 contributions</title>
 </g>
 
-<g id="point-43" class="point" transform="translate(445.78 258.00)">
+<g id="point-43" class="point" transform="translate(445.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -793,7 +793,7 @@
   <title>Aug 10, 2026: 0 contributions</title>
 </g>
 
-<g id="point-44" class="point" transform="translate(454.89 258.00)">
+<g id="point-44" class="point" transform="translate(454.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -809,7 +809,7 @@
   <title>Aug 11, 2026: 0 contributions</title>
 </g>
 
-<g id="point-45" class="point" transform="translate(464.00 258.00)">
+<g id="point-45" class="point" transform="translate(464.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -825,7 +825,7 @@
   <title>Aug 12, 2026: 0 contributions</title>
 </g>
 
-<g id="point-46" class="point" transform="translate(473.11 258.00)">
+<g id="point-46" class="point" transform="translate(473.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -841,7 +841,7 @@
   <title>Aug 13, 2026: 0 contributions</title>
 </g>
 
-<g id="point-47" class="point" transform="translate(482.22 258.00)">
+<g id="point-47" class="point" transform="translate(482.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -857,7 +857,7 @@
   <title>Aug 14, 2026: 0 contributions</title>
 </g>
 
-<g id="point-48" class="point" transform="translate(491.33 258.00)">
+<g id="point-48" class="point" transform="translate(491.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -873,7 +873,7 @@
   <title>Aug 15, 2026: 0 contributions</title>
 </g>
 
-<g id="point-49" class="point" transform="translate(500.44 258.00)">
+<g id="point-49" class="point" transform="translate(500.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -889,7 +889,7 @@
   <title>Aug 16, 2026: 0 contributions</title>
 </g>
 
-<g id="point-50" class="point" transform="translate(509.56 258.00)">
+<g id="point-50" class="point" transform="translate(509.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -905,7 +905,7 @@
   <title>Aug 17, 2026: 0 contributions</title>
 </g>
 
-<g id="point-51" class="point" transform="translate(518.67 258.00)">
+<g id="point-51" class="point" transform="translate(518.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -921,7 +921,7 @@
   <title>Aug 18, 2026: 0 contributions</title>
 </g>
 
-<g id="point-52" class="point" transform="translate(527.78 258.00)">
+<g id="point-52" class="point" transform="translate(527.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -937,7 +937,7 @@
   <title>Aug 19, 2026: 0 contributions</title>
 </g>
 
-<g id="point-53" class="point" transform="translate(536.89 258.00)">
+<g id="point-53" class="point" transform="translate(536.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -953,7 +953,7 @@
   <title>Aug 20, 2026: 0 contributions</title>
 </g>
 
-<g id="point-54" class="point" transform="translate(546.00 258.00)">
+<g id="point-54" class="point" transform="translate(546.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -969,7 +969,7 @@
   <title>Aug 21, 2026: 0 contributions</title>
 </g>
 
-<g id="point-55" class="point" transform="translate(555.11 258.00)">
+<g id="point-55" class="point" transform="translate(555.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -985,7 +985,7 @@
   <title>Aug 22, 2026: 0 contributions</title>
 </g>
 
-<g id="point-56" class="point" transform="translate(564.22 258.00)">
+<g id="point-56" class="point" transform="translate(564.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1001,7 +1001,7 @@
   <title>Aug 23, 2026: 0 contributions</title>
 </g>
 
-<g id="point-57" class="point" transform="translate(573.33 258.00)">
+<g id="point-57" class="point" transform="translate(573.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1017,7 +1017,7 @@
   <title>Aug 24, 2026: 0 contributions</title>
 </g>
 
-<g id="point-58" class="point" transform="translate(582.44 258.00)">
+<g id="point-58" class="point" transform="translate(582.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1033,7 +1033,7 @@
   <title>Aug 25, 2026: 0 contributions</title>
 </g>
 
-<g id="point-59" class="point" transform="translate(591.56 258.00)">
+<g id="point-59" class="point" transform="translate(591.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1049,7 +1049,7 @@
   <title>Aug 26, 2026: 0 contributions</title>
 </g>
 
-<g id="point-60" class="point" transform="translate(600.67 258.00)">
+<g id="point-60" class="point" transform="translate(600.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1065,7 +1065,7 @@
   <title>Aug 27, 2026: 0 contributions</title>
 </g>
 
-<g id="point-61" class="point" transform="translate(609.78 258.00)">
+<g id="point-61" class="point" transform="translate(609.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1081,7 +1081,7 @@
   <title>Aug 28, 2026: 0 contributions</title>
 </g>
 
-<g id="point-62" class="point" transform="translate(618.89 258.00)">
+<g id="point-62" class="point" transform="translate(618.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1097,7 +1097,7 @@
   <title>Aug 29, 2026: 0 contributions</title>
 </g>
 
-<g id="point-63" class="point" transform="translate(628.00 258.00)">
+<g id="point-63" class="point" transform="translate(628.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1113,7 +1113,7 @@
   <title>Aug 30, 2026: 0 contributions</title>
 </g>
 
-<g id="point-64" class="point" transform="translate(637.11 258.00)">
+<g id="point-64" class="point" transform="translate(637.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1129,7 +1129,7 @@
   <title>Aug 31, 2026: 0 contributions</title>
 </g>
 
-<g id="point-65" class="point" transform="translate(646.22 258.00)">
+<g id="point-65" class="point" transform="translate(646.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1145,7 +1145,7 @@
   <title>Sep 1, 2026: 0 contributions</title>
 </g>
 
-<g id="point-66" class="point" transform="translate(655.33 258.00)">
+<g id="point-66" class="point" transform="translate(655.33 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1161,7 +1161,7 @@
   <title>Sep 2, 2026: 0 contributions</title>
 </g>
 
-<g id="point-67" class="point" transform="translate(664.44 258.00)">
+<g id="point-67" class="point" transform="translate(664.44 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1177,7 +1177,7 @@
   <title>Sep 3, 2026: 0 contributions</title>
 </g>
 
-<g id="point-68" class="point" transform="translate(673.56 258.00)">
+<g id="point-68" class="point" transform="translate(673.56 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1193,7 +1193,7 @@
   <title>Sep 4, 2026: 0 contributions</title>
 </g>
 
-<g id="point-69" class="point" transform="translate(682.67 258.00)">
+<g id="point-69" class="point" transform="translate(682.67 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1209,7 +1209,7 @@
   <title>Sep 5, 2026: 0 contributions</title>
 </g>
 
-<g id="point-70" class="point" transform="translate(691.78 258.00)">
+<g id="point-70" class="point" transform="translate(691.78 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1225,7 +1225,7 @@
   <title>Sep 6, 2026: 0 contributions</title>
 </g>
 
-<g id="point-71" class="point" transform="translate(700.89 258.00)">
+<g id="point-71" class="point" transform="translate(700.89 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1241,7 +1241,7 @@
   <title>Sep 7, 2026: 0 contributions</title>
 </g>
 
-<g id="point-72" class="point" transform="translate(710.00 258.00)">
+<g id="point-72" class="point" transform="translate(710.00 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1257,7 +1257,7 @@
   <title>Sep 8, 2026: 0 contributions</title>
 </g>
 
-<g id="point-73" class="point" transform="translate(719.11 258.00)">
+<g id="point-73" class="point" transform="translate(719.11 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1273,7 +1273,7 @@
   <title>Sep 9, 2026: 0 contributions</title>
 </g>
 
-<g id="point-74" class="point" transform="translate(728.22 258.00)">
+<g id="point-74" class="point" transform="translate(728.22 236.00)">
   <circle class="hit" r="10" />
   <line class="hover-guide" x1="0" y1="0.00" x2="0" y2="0" />
   <circle class="hover-marker" cx="0" cy="0.00" r="4.6">
@@ -1289,12 +1289,12 @@
   <title>Sep 10, 2026: 0 contributions</title>
 </g>
 
-<g id="point-75" class="point" transform="translate(737.33 256.94)">
+<g id="point-75" class="point" transform="translate(737.33 235.08)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="1.06" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="1.06" r="4.6">
+  <line class="hover-guide" x1="0" y1="0.92" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="0.92" r="4.6">
     <set attributeName="opacity" to="1" begin="point-75.mouseover" end="point-75.mouseout" />
-    <animate attributeName="cy" from="1.06" to="0" dur=".18s" begin="point-75.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="0.92" to="0" dur=".18s" begin="point-75.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1305,12 +1305,12 @@
   <title>Sep 11, 2026: 3 contributions</title>
 </g>
 
-<g id="point-76" class="point" transform="translate(746.44 256.58)">
+<g id="point-76" class="point" transform="translate(746.44 234.77)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="1.42" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="1.42" r="4.6">
+  <line class="hover-guide" x1="0" y1="1.23" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="1.23" r="4.6">
     <set attributeName="opacity" to="1" begin="point-76.mouseover" end="point-76.mouseout" />
-    <animate attributeName="cy" from="1.42" to="0" dur=".18s" begin="point-76.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="1.23" to="0" dur=".18s" begin="point-76.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1321,12 +1321,12 @@
   <title>Sep 12, 2026: 4 contributions</title>
 </g>
 
-<g id="point-77" class="point" transform="translate(755.56 253.75)">
+<g id="point-77" class="point" transform="translate(755.56 232.32)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="4.25" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="4.25" r="4.6">
+  <line class="hover-guide" x1="0" y1="3.68" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="3.68" r="4.6">
     <set attributeName="opacity" to="1" begin="point-77.mouseover" end="point-77.mouseout" />
-    <animate attributeName="cy" from="4.25" to="0" dur=".18s" begin="point-77.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="3.68" to="0" dur=".18s" begin="point-77.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1337,12 +1337,12 @@
   <title>Sep 13, 2026: 12 contributions</title>
 </g>
 
-<g id="point-78" class="point" transform="translate(764.67 220.84)">
+<g id="point-78" class="point" transform="translate(764.67 203.76)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="37.16" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="37.16" r="4.6">
+  <line class="hover-guide" x1="0" y1="32.24" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="32.24" r="4.6">
     <set attributeName="opacity" to="1" begin="point-78.mouseover" end="point-78.mouseout" />
-    <animate attributeName="cy" from="37.16" to="0" dur=".18s" begin="point-78.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="32.24" to="0" dur=".18s" begin="point-78.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1353,12 +1353,12 @@
   <title>Sep 14, 2026: 105 contributions</title>
 </g>
 
-<g id="point-79" class="point" transform="translate(773.78 183.67)">
+<g id="point-79" class="point" transform="translate(773.78 171.52)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="74.33" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="74.33" r="4.6">
+  <line class="hover-guide" x1="0" y1="64.48" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="64.48" r="4.6">
     <set attributeName="opacity" to="1" begin="point-79.mouseover" end="point-79.mouseout" />
-    <animate attributeName="cy" from="74.33" to="0" dur=".18s" begin="point-79.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="64.48" to="0" dur=".18s" begin="point-79.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1369,12 +1369,12 @@
   <title>Sep 15, 2026: 210 contributions</title>
 </g>
 
-<g id="point-80" class="point" transform="translate(782.89 209.86)">
+<g id="point-80" class="point" transform="translate(782.89 194.24)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="48.14" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="48.14" r="4.6">
+  <line class="hover-guide" x1="0" y1="41.76" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="41.76" r="4.6">
     <set attributeName="opacity" to="1" begin="point-80.mouseover" end="point-80.mouseout" />
-    <animate attributeName="cy" from="48.14" to="0" dur=".18s" begin="point-80.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="41.76" to="0" dur=".18s" begin="point-80.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1385,12 +1385,12 @@
   <title>Sep 16, 2026: 136 contributions</title>
 </g>
 
-<g id="point-81" class="point" transform="translate(792.00 174.47)">
+<g id="point-81" class="point" transform="translate(792.00 163.54)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="83.53" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="83.53" r="4.6">
+  <line class="hover-guide" x1="0" y1="72.46" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="72.46" r="4.6">
     <set attributeName="opacity" to="1" begin="point-81.mouseover" end="point-81.mouseout" />
-    <animate attributeName="cy" from="83.53" to="0" dur=".18s" begin="point-81.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="72.46" to="0" dur=".18s" begin="point-81.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 -58.00)">
@@ -1403,10 +1403,10 @@
 
 <g id="point-82" class="point" transform="translate(801.11 92.00)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="166.00" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="166.00" r="4.6">
+  <line class="hover-guide" x1="0" y1="144.00" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="144.00" r="4.6">
     <set attributeName="opacity" to="1" begin="point-82.mouseover" end="point-82.mouseout" />
-    <animate attributeName="cy" from="166.00" to="0" dur=".18s" begin="point-82.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="144.00" to="0" dur=".18s" begin="point-82.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-66.00 14.00)">
@@ -1417,12 +1417,12 @@
   <title>Sep 18, 2026: 469 contributions</title>
 </g>
 
-<g id="point-83" class="point" transform="translate(810.22 221.54)">
+<g id="point-83" class="point" transform="translate(810.22 204.38)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="36.46" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="36.46" r="4.6">
+  <line class="hover-guide" x1="0" y1="31.62" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="31.62" r="4.6">
     <set attributeName="opacity" to="1" begin="point-83.mouseover" end="point-83.mouseout" />
-    <animate attributeName="cy" from="36.46" to="0" dur=".18s" begin="point-83.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="31.62" to="0" dur=".18s" begin="point-83.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1433,12 +1433,12 @@
   <title>Sep 19, 2026: 103 contributions</title>
 </g>
 
-<g id="point-84" class="point" transform="translate(819.33 218.00)">
+<g id="point-84" class="point" transform="translate(819.33 201.30)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="40.00" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="40.00" r="4.6">
+  <line class="hover-guide" x1="0" y1="34.70" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="34.70" r="4.6">
     <set attributeName="opacity" to="1" begin="point-84.mouseover" end="point-84.mouseout" />
-    <animate attributeName="cy" from="40.00" to="0" dur=".18s" begin="point-84.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="34.70" to="0" dur=".18s" begin="point-84.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1449,12 +1449,12 @@
   <title>Sep 20, 2026: 113 contributions</title>
 </g>
 
-<g id="point-85" class="point" transform="translate(828.44 246.32)">
+<g id="point-85" class="point" transform="translate(828.44 225.87)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="11.68" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="11.68" r="4.6">
+  <line class="hover-guide" x1="0" y1="10.13" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="10.13" r="4.6">
     <set attributeName="opacity" to="1" begin="point-85.mouseover" end="point-85.mouseout" />
-    <animate attributeName="cy" from="11.68" to="0" dur=".18s" begin="point-85.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="10.13" to="0" dur=".18s" begin="point-85.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1465,12 +1465,12 @@
   <title>Sep 21, 2026: 33 contributions</title>
 </g>
 
-<g id="point-86" class="point" transform="translate(837.56 176.24)">
+<g id="point-86" class="point" transform="translate(837.56 165.07)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="81.76" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="81.76" r="4.6">
+  <line class="hover-guide" x1="0" y1="70.93" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="70.93" r="4.6">
     <set attributeName="opacity" to="1" begin="point-86.mouseover" end="point-86.mouseout" />
-    <animate attributeName="cy" from="81.76" to="0" dur=".18s" begin="point-86.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="70.93" to="0" dur=".18s" begin="point-86.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1481,12 +1481,12 @@
   <title>Sep 22, 2026: 231 contributions</title>
 </g>
 
-<g id="point-87" class="point" transform="translate(846.67 180.13)">
+<g id="point-87" class="point" transform="translate(846.67 168.45)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="77.87" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="77.87" r="4.6">
+  <line class="hover-guide" x1="0" y1="67.55" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="67.55" r="4.6">
     <set attributeName="opacity" to="1" begin="point-87.mouseover" end="point-87.mouseout" />
-    <animate attributeName="cy" from="77.87" to="0" dur=".18s" begin="point-87.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="67.55" to="0" dur=".18s" begin="point-87.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1497,12 +1497,12 @@
   <title>Sep 23, 2026: 220 contributions</title>
 </g>
 
-<g id="point-88" class="point" transform="translate(855.78 217.30)">
+<g id="point-88" class="point" transform="translate(855.78 200.69)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="40.70" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="40.70" r="4.6">
+  <line class="hover-guide" x1="0" y1="35.31" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="35.31" r="4.6">
     <set attributeName="opacity" to="1" begin="point-88.mouseover" end="point-88.mouseout" />
-    <animate attributeName="cy" from="40.70" to="0" dur=".18s" begin="point-88.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="35.31" to="0" dur=".18s" begin="point-88.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1513,12 +1513,12 @@
   <title>Sep 24, 2026: 115 contributions</title>
 </g>
 
-<g id="point-89" class="point" transform="translate(864.89 245.61)">
+<g id="point-89" class="point" transform="translate(864.89 225.25)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="12.39" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="12.39" r="4.6">
+  <line class="hover-guide" x1="0" y1="10.75" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="10.75" r="4.6">
     <set attributeName="opacity" to="1" begin="point-89.mouseover" end="point-89.mouseout" />
-    <animate attributeName="cy" from="12.39" to="0" dur=".18s" begin="point-89.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="10.75" to="0" dur=".18s" begin="point-89.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
@@ -1529,30 +1529,30 @@
   <title>Sep 25, 2026: 35 contributions</title>
 </g>
 
-<g id="point-90" class="point" transform="translate(874.00 249.86)">
+<g id="point-90" class="point" transform="translate(874.00 227.40)">
   <circle class="hit" r="10" />
-  <line class="hover-guide" x1="0" y1="8.14" x2="0" y2="0" />
-  <circle class="hover-marker" cx="0" cy="8.14" r="4.6">
+  <line class="hover-guide" x1="0" y1="8.60" x2="0" y2="0" />
+  <circle class="hover-marker" cx="0" cy="8.60" r="4.6">
     <set attributeName="opacity" to="1" begin="point-90.mouseover" end="point-90.mouseout" />
-    <animate attributeName="cy" from="8.14" to="0" dur=".18s" begin="point-90.mouseover" fill="freeze" />
+    <animate attributeName="cy" from="8.60" to="0" dur=".18s" begin="point-90.mouseover" fill="freeze" />
   </circle>
   <circle class="dot" r="2.6" />
   <g class="tooltip" transform="translate(-142.00 -58.00)">
     <rect width="132" height="44" rx="7" />
     <text x="10" y="17" class="tooltip-date">Sep 26, 2026</text>
-    <text x="10" y="34" class="tooltip-count">23 contributions</text>
+    <text x="10" y="34" class="tooltip-count">28 contributions</text>
   </g>
-  <title>Sep 26, 2026: 23 contributions</title>
+  <title>Sep 26, 2026: 28 contributions</title>
 </g>
 
 <circle class="motion-marker" cx="0" cy="0" r="4.8" fill="#7ee787" stroke="#0d1117" stroke-width="2" filter="url(#glow)">
-  <animateMotion begin="1.7s" dur="12s" repeatCount="indefinite" path="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,249.86" />
+  <animateMotion begin="1.7s" dur="12s" repeatCount="indefinite" path="M54.00,236.00 L63.11,236.00 L72.22,236.00 L81.33,236.00 L90.44,236.00 L99.56,236.00 L108.67,236.00 L117.78,236.00 L126.89,236.00 L136.00,236.00 L145.11,236.00 L154.22,236.00 L163.33,236.00 L172.44,236.00 L181.56,236.00 L190.67,236.00 L199.78,236.00 L208.89,236.00 L218.00,236.00 L227.11,236.00 L236.22,236.00 L245.33,236.00 L254.44,236.00 L263.56,236.00 L272.67,236.00 L281.78,236.00 L290.89,236.00 L300.00,236.00 L309.11,236.00 L318.22,236.00 L327.33,236.00 L336.44,236.00 L345.56,236.00 L354.67,236.00 L363.78,236.00 L372.89,236.00 L382.00,236.00 L391.11,236.00 L400.22,236.00 L409.33,236.00 L418.44,236.00 L427.56,236.00 L436.67,236.00 L445.78,236.00 L454.89,236.00 L464.00,236.00 L473.11,236.00 L482.22,236.00 L491.33,236.00 L500.44,236.00 L509.56,236.00 L518.67,236.00 L527.78,236.00 L536.89,236.00 L546.00,236.00 L555.11,236.00 L564.22,236.00 L573.33,236.00 L582.44,236.00 L591.56,236.00 L600.67,236.00 L609.78,236.00 L618.89,236.00 L628.00,236.00 L637.11,236.00 L646.22,236.00 L655.33,236.00 L664.44,236.00 L673.56,236.00 L682.67,236.00 L691.78,236.00 L700.89,236.00 L710.00,236.00 L719.11,236.00 L728.22,236.00 L737.33,235.08 L746.44,234.77 L755.56,232.32 L764.67,203.76 L773.78,171.52 L782.89,194.24 L792.00,163.54 L801.11,92.00 L810.22,204.38 L819.33,201.30 L828.44,225.87 L837.56,165.07 L846.67,168.45 L855.78,200.69 L864.89,225.25 L874.00,227.40" />
 </circle>
 
-<text x="54.00" y="286" class="axis-label">Jun</text>
-<text x="81.33" y="286" class="axis-label">Jul</text>
-<text x="363.78" y="286" class="axis-label">Aug</text>
-<text x="646.22" y="286" class="axis-label">Sep</text>
+<text x="54.00" y="260" class="axis-label">Jun</text>
+<text x="81.33" y="260" class="axis-label">Jul</text>
+<text x="363.78" y="260" class="axis-label">Aug</text>
+<text x="646.22" y="260" class="axis-label">Sep</text>
 
-<text x="874" y="298" text-anchor="end" class="axis-label">Hover a point for details · click from the README to open the interactive SVG</text>
+<text x="874" y="272" text-anchor="end" class="axis-label">Hover a point for details · click from the README to open the interactive SVG</text>
 </svg>

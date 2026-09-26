@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="182" viewBox="0 0 1000 182" role="img" aria-label="Animated technology stack">
+  <defs>
+    <linearGradient id="stackAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset=".5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <linearGradient id="fadeLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeRight" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="trackClip">
+      <rect x="18" y="48" width="964" height="116" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .bg { fill:#0d1117; stroke:#30363d; }
+    .title { fill:#f0f6fc; font:800 16px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .subtitle { fill:#8b949e; font:10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .pillText { fill:#f0f6fc; font:700 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .rowLabel { fill:#6e7681; font:700 8px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; letter-spacing:.8px; }
+  </style>
+
+  <rect class="bg" x=".5" y=".5" width="999" height="181" rx="16"/>
+  <text x="22" y="26" class="title">TECH STACK</text>
+  <text x="22" y="41" class="subtitle">Languages, frameworks, data, cloud and tools I work with.</text>
+  <rect x="860" y="21" width="116" height="3" rx="2" fill="url(#stackAccent)"/>
+
+  <g clip-path="url(#trackClip)">
+    <text x="22" y="61" class="rowLabel">LANGUAGES · UI</text>
+    <g transform="translate(145 50)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1350 0" dur="24s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#3670A0"/><text x="39" y="16" text-anchor="middle" class="pillText">Python</text></g>
+        <g transform="translate(90 0)"><rect width="64" height="25" rx="12.5" fill="#161b22" stroke="#ED8B00"/><text x="32" y="16" text-anchor="middle" class="pillText">Java</text></g>
+        <g transform="translate(166 0)"><rect width="58" height="25" rx="12.5" fill="#161b22" stroke="#777BB4"/><text x="29" y="16" text-anchor="middle" class="pillText">PHP</text></g>
+        <g transform="translate(236 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#B22222"/><text x="36" y="16" text-anchor="middle" class="pillText">Delphi</text></g>
+        <g transform="translate(320 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#F7DF1E"/><text x="49" y="16" text-anchor="middle" class="pillText">JavaScript</text></g>
+        <g transform="translate(430 0)"><rect width="100" height="25" rx="12.5" fill="#161b22" stroke="#3178C6"/><text x="50" y="16" text-anchor="middle" class="pillText">TypeScript</text></g>
+        <g transform="translate(542 0)"><rect width="70" height="25" rx="12.5" fill="#161b22" stroke="#E34F26"/><text x="35" y="16" text-anchor="middle" class="pillText">HTML5</text></g>
+        <g transform="translate(624 0)"><rect width="66" height="25" rx="12.5" fill="#161b22" stroke="#1572B6"/><text x="33" y="16" text-anchor="middle" class="pillText">CSS3</text></g>
+        <g transform="translate(702 0)"><rect width="62" height="25" rx="12.5" fill="#161b22" stroke="#CC6699"/><text x="31" y="16" text-anchor="middle" class="pillText">Sass</text></g>
+        <g transform="translate(776 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#DD0031"/><text x="41" y="16" text-anchor="middle" class="pillText">Angular</text></g>
+        <g transform="translate(870 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#61DAFB"/><text x="36" y="16" text-anchor="middle" class="pillText">React</text></g>
+        <g transform="translate(954 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#f0f6fc"/><text x="41" y="16" text-anchor="middle" class="pillText">Next.js</text></g>
+        <g transform="translate(1048 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#0769AD"/><text x="39" y="16" text-anchor="middle" class="pillText">jQuery</text></g>
+        <g transform="translate(1138 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#38B2AC"/><text x="44" y="16" text-anchor="middle" class="pillText">Tailwind</text></g>
+        <g transform="translate(1238 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#563D7C"/><text x="49" y="16" text-anchor="middle" class="pillText">Bootstrap</text></g>
+      </g>
+      <g transform="translate(1350 0)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1350 0" dur="24s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#3670A0"/><text x="39" y="16" text-anchor="middle" class="pillText">Python</text></g>
+        <g transform="translate(90 0)"><rect width="64" height="25" rx="12.5" fill="#161b22" stroke="#ED8B00"/><text x="32" y="16" text-anchor="middle" class="pillText">Java</text></g>
+        <g transform="translate(166 0)"><rect width="58" height="25" rx="12.5" fill="#161b22" stroke="#777BB4"/><text x="29" y="16" text-anchor="middle" class="pillText">PHP</text></g>
+        <g transform="translate(236 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#B22222"/><text x="36" y="16" text-anchor="middle" class="pillText">Delphi</text></g>
+        <g transform="translate(320 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#F7DF1E"/><text x="49" y="16" text-anchor="middle" class="pillText">JavaScript</text></g>
+        <g transform="translate(430 0)"><rect width="100" height="25" rx="12.5" fill="#161b22" stroke="#3178C6"/><text x="50" y="16" text-anchor="middle" class="pillText">TypeScript</text></g>
+        <g transform="translate(542 0)"><rect width="70" height="25" rx="12.5" fill="#161b22" stroke="#E34F26"/><text x="35" y="16" text-anchor="middle" class="pillText">HTML5</text></g>
+        <g transform="translate(624 0)"><rect width="66" height="25" rx="12.5" fill="#161b22" stroke="#1572B6"/><text x="33" y="16" text-anchor="middle" class="pillText">CSS3</text></g>
+        <g transform="translate(702 0)"><rect width="62" height="25" rx="12.5" fill="#161b22" stroke="#CC6699"/><text x="31" y="16" text-anchor="middle" class="pillText">Sass</text></g>
+        <g transform="translate(776 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#DD0031"/><text x="41" y="16" text-anchor="middle" class="pillText">Angular</text></g>
+        <g transform="translate(870 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#61DAFB"/><text x="36" y="16" text-anchor="middle" class="pillText">React</text></g>
+        <g transform="translate(954 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#f0f6fc"/><text x="41" y="16" text-anchor="middle" class="pillText">Next.js</text></g>
+        <g transform="translate(1048 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#0769AD"/><text x="39" y="16" text-anchor="middle" class="pillText">jQuery</text></g>
+        <g transform="translate(1138 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#38B2AC"/><text x="44" y="16" text-anchor="middle" class="pillText">Tailwind</text></g>
+        <g transform="translate(1238 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#563D7C"/><text x="49" y="16" text-anchor="middle" class="pillText">Bootstrap</text></g>
+      </g>
+    </g>
+
+    <text x="22" y="100" class="rowLabel">BACKEND · DATA</text>
+    <g transform="translate(145 88)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="-1280 0;0 0" dur="26s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="84" height="25" rx="12.5" fill="#161b22" stroke="#43853D"/><text x="42" y="16" text-anchor="middle" class="pillText">Node.js</text></g>
+        <g transform="translate(96 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#6e7681"/><text x="46" y="16" text-anchor="middle" class="pillText">Express.js</text></g>
+        <g transform="translate(200 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#336791"/><text x="49" y="16" text-anchor="middle" class="pillText">PostgreSQL</text></g>
+        <g transform="translate(310 0)"><rect width="86" height="25" rx="12.5" fill="#161b22" stroke="#01529E"/><text x="43" y="16" text-anchor="middle" class="pillText">MariaDB</text></g>
+        <g transform="translate(408 0)"><rect width="74" height="25" rx="12.5" fill="#161b22" stroke="#4479A1"/><text x="37" y="16" text-anchor="middle" class="pillText">MySQL</text></g>
+        <g transform="translate(494 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#4EA94B"/><text x="46" y="16" text-anchor="middle" class="pillText">MongoDB</text></g>
+        <g transform="translate(598 0)"><rect width="106" height="25" rx="12.5" fill="#161b22" stroke="#CC2927"/><text x="53" y="16" text-anchor="middle" class="pillText">SQL Server</text></g>
+        <g transform="translate(716 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#59666C"/><text x="44" y="16" text-anchor="middle" class="pillText">Hibernate</text></g>
+        <g transform="translate(816 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#ffca28"/><text x="44" y="16" text-anchor="middle" class="pillText">Firebase</text></g>
+        <g transform="translate(916 0)"><rect width="76" height="25" rx="12.5" fill="#161b22" stroke="#3982CE"/><text x="38" y="16" text-anchor="middle" class="pillText">Prisma</text></g>
+        <g transform="translate(1004 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#47848F"/><text x="44" y="16" text-anchor="middle" class="pillText">Electron</text></g>
+        <g transform="translate(1104 0)"><rect width="100" height="25" rx="12.5" fill="#161b22" stroke="#C71A36"/><text x="50" y="16" text-anchor="middle" class="pillText">Maven</text></g>
+      </g>
+      <g transform="translate(1280 0)">
+        <animateTransform attributeName="transform" type="translate" values="-1280 0;0 0" dur="26s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="84" height="25" rx="12.5" fill="#161b22" stroke="#43853D"/><text x="42" y="16" text-anchor="middle" class="pillText">Node.js</text></g>
+        <g transform="translate(96 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#6e7681"/><text x="46" y="16" text-anchor="middle" class="pillText">Express.js</text></g>
+        <g transform="translate(200 0)"><rect width="98" height="25" rx="12.5" fill="#161b22" stroke="#336791"/><text x="49" y="16" text-anchor="middle" class="pillText">PostgreSQL</text></g>
+        <g transform="translate(310 0)"><rect width="86" height="25" rx="12.5" fill="#161b22" stroke="#01529E"/><text x="43" y="16" text-anchor="middle" class="pillText">MariaDB</text></g>
+        <g transform="translate(408 0)"><rect width="74" height="25" rx="12.5" fill="#161b22" stroke="#4479A1"/><text x="37" y="16" text-anchor="middle" class="pillText">MySQL</text></g>
+        <g transform="translate(494 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#4EA94B"/><text x="46" y="16" text-anchor="middle" class="pillText">MongoDB</text></g>
+        <g transform="translate(598 0)"><rect width="106" height="25" rx="12.5" fill="#161b22" stroke="#CC2927"/><text x="53" y="16" text-anchor="middle" class="pillText">SQL Server</text></g>
+        <g transform="translate(716 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#59666C"/><text x="44" y="16" text-anchor="middle" class="pillText">Hibernate</text></g>
+        <g transform="translate(816 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#ffca28"/><text x="44" y="16" text-anchor="middle" class="pillText">Firebase</text></g>
+        <g transform="translate(916 0)"><rect width="76" height="25" rx="12.5" fill="#161b22" stroke="#3982CE"/><text x="38" y="16" text-anchor="middle" class="pillText">Prisma</text></g>
+        <g transform="translate(1004 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#47848F"/><text x="44" y="16" text-anchor="middle" class="pillText">Electron</text></g>
+        <g transform="translate(1104 0)"><rect width="100" height="25" rx="12.5" fill="#161b22" stroke="#C71A36"/><text x="50" y="16" text-anchor="middle" class="pillText">Maven</text></g>
+      </g>
+    </g>
+
+    <text x="22" y="139" class="rowLabel">TOOLS · CLOUD</text>
+    <g transform="translate(145 127)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1460 0" dur="28s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="64" height="25" rx="12.5" fill="#161b22" stroke="#FF9900"/><text x="32" y="16" text-anchor="middle" class="pillText">AWS</text></g>
+        <g transform="translate(76 0)"><rect width="70" height="25" rx="12.5" fill="#161b22" stroke="#0089D6"/><text x="35" y="16" text-anchor="middle" class="pillText">Azure</text></g>
+        <g transform="translate(158 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#f0f6fc"/><text x="46" y="16" text-anchor="middle" class="pillText">Vercel</text></g>
+        <g transform="translate(262 0)"><rect width="110" height="25" rx="12.5" fill="#161b22" stroke="#6e7681"/><text x="55" y="16" text-anchor="middle" class="pillText">GitHub Pages</text></g>
+        <g transform="translate(384 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#007ACC"/><text x="41" y="16" text-anchor="middle" class="pillText">VS Code</text></g>
+        <g transform="translate(478 0)"><rect width="84" height="25" rx="12.5" fill="#161b22" stroke="#1B6AC6"/><text x="42" y="16" text-anchor="middle" class="pillText">NetBeans</text></g>
+        <g transform="translate(574 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#2C2255"/><text x="39" y="16" text-anchor="middle" class="pillText">Eclipse</text></g>
+        <g transform="translate(664 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#CB3837"/><text x="36" y="16" text-anchor="middle" class="pillText">npm</text></g>
+        <g transform="translate(748 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#2C8EBB"/><text x="36" y="16" text-anchor="middle" class="pillText">Yarn</text></g>
+        <g transform="translate(832 0)"><rect width="80" height="25" rx="12.5" fill="#161b22" stroke="#F9DC3E"/><text x="40" y="16" text-anchor="middle" class="pillText">Babel</text></g>
+        <g transform="translate(924 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#FF6C37"/><text x="44" y="16" text-anchor="middle" class="pillText">Postman</text></g>
+        <g transform="translate(1024 0)"><rect width="74" height="25" rx="12.5" fill="#161b22" stroke="#F24E1E"/><text x="37" y="16" text-anchor="middle" class="pillText">Figma</text></g>
+        <g transform="translate(1110 0)"><rect width="62" height="25" rx="12.5" fill="#161b22" stroke="#F05032"/><text x="31" y="16" text-anchor="middle" class="pillText">Git</text></g>
+        <g transform="translate(1184 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#1A2C34"/><text x="41" y="16" text-anchor="middle" class="pillText">Prettier</text></g>
+        <g transform="translate(1278 0)"><rect width="76" height="25" rx="12.5" fill="#161b22" stroke="#0052CC"/><text x="38" y="16" text-anchor="middle" class="pillText">Trello</text></g>
+        <g transform="translate(1366 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#575757"/><text x="41" y="16" text-anchor="middle" class="pillText">Sublime</text></g>
+      </g>
+      <g transform="translate(1460 0)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1460 0" dur="28s" repeatCount="indefinite"/>
+        <g transform="translate(0 0)"><rect width="64" height="25" rx="12.5" fill="#161b22" stroke="#FF9900"/><text x="32" y="16" text-anchor="middle" class="pillText">AWS</text></g>
+        <g transform="translate(76 0)"><rect width="70" height="25" rx="12.5" fill="#161b22" stroke="#0089D6"/><text x="35" y="16" text-anchor="middle" class="pillText">Azure</text></g>
+        <g transform="translate(158 0)"><rect width="92" height="25" rx="12.5" fill="#161b22" stroke="#f0f6fc"/><text x="46" y="16" text-anchor="middle" class="pillText">Vercel</text></g>
+        <g transform="translate(262 0)"><rect width="110" height="25" rx="12.5" fill="#161b22" stroke="#6e7681"/><text x="55" y="16" text-anchor="middle" class="pillText">GitHub Pages</text></g>
+        <g transform="translate(384 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#007ACC"/><text x="41" y="16" text-anchor="middle" class="pillText">VS Code</text></g>
+        <g transform="translate(478 0)"><rect width="84" height="25" rx="12.5" fill="#161b22" stroke="#1B6AC6"/><text x="42" y="16" text-anchor="middle" class="pillText">NetBeans</text></g>
+        <g transform="translate(574 0)"><rect width="78" height="25" rx="12.5" fill="#161b22" stroke="#2C2255"/><text x="39" y="16" text-anchor="middle" class="pillText">Eclipse</text></g>
+        <g transform="translate(664 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#CB3837"/><text x="36" y="16" text-anchor="middle" class="pillText">npm</text></g>
+        <g transform="translate(748 0)"><rect width="72" height="25" rx="12.5" fill="#161b22" stroke="#2C8EBB"/><text x="36" y="16" text-anchor="middle" class="pillText">Yarn</text></g>
+        <g transform="translate(832 0)"><rect width="80" height="25" rx="12.5" fill="#161b22" stroke="#F9DC3E"/><text x="40" y="16" text-anchor="middle" class="pillText">Babel</text></g>
+        <g transform="translate(924 0)"><rect width="88" height="25" rx="12.5" fill="#161b22" stroke="#FF6C37"/><text x="44" y="16" text-anchor="middle" class="pillText">Postman</text></g>
+        <g transform="translate(1024 0)"><rect width="74" height="25" rx="12.5" fill="#161b22" stroke="#F24E1E"/><text x="37" y="16" text-anchor="middle" class="pillText">Figma</text></g>
+        <g transform="translate(1110 0)"><rect width="62" height="25" rx="12.5" fill="#161b22" stroke="#F05032"/><text x="31" y="16" text-anchor="middle" class="pillText">Git</text></g>
+        <g transform="translate(1184 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#1A2C34"/><text x="41" y="16" text-anchor="middle" class="pillText">Prettier</text></g>
+        <g transform="translate(1278 0)"><rect width="76" height="25" rx="12.5" fill="#161b22" stroke="#0052CC"/><text x="38" y="16" text-anchor="middle" class="pillText">Trello</text></g>
+        <g transform="translate(1366 0)"><rect width="82" height="25" rx="12.5" fill="#161b22" stroke="#575757"/><text x="41" y="16" text-anchor="middle" class="pillText">Sublime</text></g>
+      </g>
+    </g>
+  </g>
+
+  <rect x="18" y="48" width="120" height="116" fill="url(#fadeLeft)" pointer-events="none"/>
+  <rect x="862" y="48" width="120" height="116" fill="url(#fadeRight)" pointer-events="none"/>
+</svg>

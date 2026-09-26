@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="188" viewBox="0 0 1000 188" role="img" aria-label="Arthur Benfica Graff technology ecosystem">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".52" stop-color="#10161d"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="topAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset=".5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title { fill:#f0f6fc; font:800 16px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .subtitle { fill:#8b949e; font:10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .groupTitle { font:800 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; letter-spacing:.9px; }
+    .tech { fill:#c9d1d9; font:9.6px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+    .muted { fill:#6e7681; font:8px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; letter-spacing:.6px; }
+  </style>
+
+  <rect x=".5" y=".5" width="999" height="187" rx="16" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="18" y="16" width="110" height="3" rx="2" fill="url(#topAccent)">
+    <animate attributeName="width" values="70;150;110" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="22" y="39" class="title">TECH ECOSYSTEM</text>
+  <text x="22" y="54" class="subtitle">A broader view of the technologies, frameworks and tools I work with.</text>
+  <text x="978" y="39" text-anchor="end" class="muted">FULL STACK · PRODUCT · LOCAL AI</text>
+
+  <g transform="translate(18 68)">
+    <rect width="229" height="101" rx="12" fill="#111820" stroke="#24412c"/>
+    <circle cx="18" cy="18" r="4" fill="#39d353" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="22" class="groupTitle" fill="#7ee787">LANGUAGES</text>
+    <text x="18" y="47" class="tech">Python · Java · PHP · Delphi</text>
+    <text x="18" y="66" class="tech">JavaScript · TypeScript · JSON</text>
+    <text x="18" y="85" class="tech">HTML5 · CSS3 · Sass</text>
+  </g>
+
+  <g transform="translate(259 68)">
+    <rect width="229" height="101" rx="12" fill="#111820" stroke="#243b55"/>
+    <circle cx="18" cy="18" r="4" fill="#58a6ff" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin="-.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="22" class="groupTitle" fill="#79c0ff">FRONTEND</text>
+    <text x="18" y="47" class="tech">React · Angular · Next.js · jQuery</text>
+    <text x="18" y="66" class="tech">Tailwind · Bootstrap · React Router</text>
+    <text x="18" y="85" class="tech">Styled Components · Ant Design</text>
+  </g>
+
+  <g transform="translate(500 68)">
+    <rect width="229" height="101" rx="12" fill="#111820" stroke="#4a3560"/>
+    <circle cx="18" cy="18" r="4" fill="#a371f7" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="22" class="groupTitle" fill="#d2a8ff">BACKEND &amp; DATA</text>
+    <text x="18" y="47" class="tech">Node.js · Express · PostgreSQL</text>
+    <text x="18" y="66" class="tech">MariaDB · MySQL · MongoDB</text>
+    <text x="18" y="85" class="tech">SQL Server · Firebase · Prisma</text>
+  </g>
+
+  <g transform="translate(741 68)">
+    <rect width="241" height="101" rx="12" fill="#111820" stroke="#5a4727"/>
+    <circle cx="18" cy="18" r="4" fill="#f2cc60" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin="-1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="22" class="groupTitle" fill="#f2cc60">TOOLS &amp; CLOUD</text>
+    <text x="18" y="47" class="tech">AWS · Azure · Vercel · GitHub Pages</text>
+    <text x="18" y="66" class="tech">VS Code · NetBeans · Eclipse · Git</text>
+    <text x="18" y="85" class="tech">npm · Yarn · Postman · Figma · Prettier</text>
+  </g>
+
+  <g opacity=".45">
+    <circle cx="164" cy="178" r="2" fill="#39d353"/>
+    <circle cx="405" cy="178" r="2" fill="#58a6ff"/>
+    <circle cx="646" cy="178" r="2" fill="#a371f7"/>
+    <circle cx="862" cy="178" r="2" fill="#f2cc60"/>
+  </g>
+</svg>

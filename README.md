@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid.svg">
-  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid.svg?v=grid-v1" alt="Animated GitHub contribution activity" width="100%" />
+  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid.svg?v=grid-v2-2026-09-26-2072" alt="Animated GitHub contribution activity" width="100%" />
 </a>
 
 <br/>

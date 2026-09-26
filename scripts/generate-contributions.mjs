@@ -255,7 +255,7 @@ fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `layout-v2-${latestDay.date}-${calendar.totalContributions}`;
+  const cacheKey = `layout-v3-${latestDay.date}-${calendar.totalContributions}`;
   const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(

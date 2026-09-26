@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Arthur Benfica Graff profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".55" stop-color="#101820"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset=".52" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <radialGradient id="orb" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#30363d" stroke-width=".7" opacity=".38"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="repoClip">
+      <rect x="0" y="0" width="248" height="132" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect x=".5" y=".5" width="999" height="259" rx="18" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#grid)" opacity=".7"/>
+  <circle cx="870" cy="56" r="120" fill="url(#orb)">
+    <animate attributeName="r" values="105;132;105" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".65;1;.65" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity=".85">
+    <circle cx="795" cy="52" r="4" fill="#39d353">
+      <animate attributeName="cy" values="52;40;52" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="845" cy="96" r="3" fill="#58a6ff">
+      <animate attributeName="cx" values="845;862;845" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="922" cy="60" r="3.5" fill="#a371f7">
+      <animate attributeName="cy" values="60;78;60" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M795 52 L845 96 L922 60" fill="none" stroke="#30363d" stroke-width="1.2"/>
+  </g>
+
+  <rect x="46" y="38" width="112" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle cx="64" cy="52" r="4" fill="#39d353">
+    <animate attributeName="opacity" values="1;.3;1" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="57" fill="#8b949e" font-size="11" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="700" letter-spacing=".8">ONLINE</text>
+
+  <text x="46" y="112" fill="#f0f6fc" font-size="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Arthur Benfica Graff</text>
+  <rect x="46" y="127" width="520" height="3" rx="2" fill="url(#accent)">
+    <animate attributeName="width" values="80;520;520" keyTimes="0;.6;1" dur="1.6s" fill="freeze"/>
+  </rect>
+
+  <text x="46" y="160" fill="#c9d1d9" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" letter-spacing=".8">SOFTWARE DEVELOPER  ·  PRODUCT BUILDER  ·  LOCAL AI</text>
+  <text x="46" y="188" fill="#8b949e" font-size="13" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">&gt; building software, tools &amp; private AI experiences</text>
+
+  <g transform="translate(46 211)">
+    <rect width="382" height="26" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="12" y="17" fill="#7ee787" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">~/github/profile</text>
+    <text x="124" y="17" fill="#8b949e" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">$</text>
+    <text x="137" y="16" fill="#f0f6fc" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">make something worth shipping</text>
+    <rect x="339" y="6" width="2" height="12" rx="1" fill="#39d353">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(704 103)">
+    <rect width="248" height="132" rx="12" fill="#0d1117" fill-opacity=".74" stroke="#30363d"/>
+    <text x="14" y="18" fill="#8b949e" font-size="9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="700" letter-spacing=".9">FEATURED REPOSITORIES</text>
+
+    <g clip-path="url(#repoClip)">
+      <g transform="translate(12 0)">
+        <animateTransform attributeName="transform" type="translate" values="12 142;12 78;12 20;12 -48" keyTimes="0;.28;.62;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.45;1;.35;0" keyTimes="0;.14;.42;.76;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+        <rect width="224" height="48" rx="10" fill="#161b22" stroke="#2f434b"/>
+        <circle cx="16" cy="16" r="4" fill="#39d353"/>
+        <text x="28" y="19" fill="#f0f6fc" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Allm4</text>
+        <text x="16" y="36" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PRODUCT · WEB · LOCAL AI</text>
+      </g>
+
+      <g transform="translate(12 0)">
+        <animateTransform attributeName="transform" type="translate" values="12 142;12 78;12 20;12 -48" keyTimes="0;.28;.62;1" dur="9s" begin="-3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.45;1;.35;0" keyTimes="0;.14;.42;.76;1" dur="9s" begin="-3s" repeatCount="indefinite"/>
+        <rect width="224" height="48" rx="10" fill="#161b22" stroke="#284f7a"/>
+        <circle cx="16" cy="16" r="4" fill="#58a6ff"/>
+        <text x="28" y="19" fill="#f0f6fc" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Allm4 Releases</text>
+        <text x="16" y="36" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BUILDS · RELEASES · DISTRIBUTION</text>
+      </g>
+
+      <g transform="translate(12 0)">
+        <animateTransform attributeName="transform" type="translate" values="12 142;12 78;12 20;12 -48" keyTimes="0;.28;.62;1" dur="9s" begin="-6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.45;1;.35;0" keyTimes="0;.14;.42;.76;1" dur="9s" begin="-6s" repeatCount="indefinite"/>
+        <rect width="224" height="48" rx="10" fill="#161b22" stroke="#5c3c78"/>
+        <circle cx="16" cy="16" r="4" fill="#a371f7"/>
+        <text x="28" y="19" fill="#f0f6fc" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">License Server</text>
+        <text x="16" y="36" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">API · LICENSES · ACTIVATION</text>
+      </g>
+    </g>
+
+    <line x1="14" y1="114" x2="234" y2="114" stroke="#21262d" stroke-width="1"/>
+    <text x="14" y="126" fill="#6e7681" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">shipping public software</text>
+  </g>
+</svg>

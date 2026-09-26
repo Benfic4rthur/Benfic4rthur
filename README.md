@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="./assets/tech-stack-marquee.svg" alt="Animated tech stack" width="100%" />
+<img src="./assets/tech-ecosystem.svg" alt="Technology ecosystem" width="100%" />
 
 <br/>
 

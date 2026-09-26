@@ -1,397 +1,1100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="808" height="172" viewBox="0 0 808 172" role="img" aria-label="GitHub contribution calendar for Benfic4rthur">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="304" viewBox="0 0 900 304" role="img" aria-label="Animated GitHub contribution activity for Benfic4rthur">
+<defs>
+  <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#39d353" stop-opacity="0.46" />
+    <stop offset="100%" stop-color="#39d353" stop-opacity="0.02" />
+  </linearGradient>
+  <filter id="glow" x="-250%" y="-250%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="3.2" result="blur" />
+    <feMerge>
+      <feMergeNode in="blur" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+</defs>
 <style>
   .bg { fill: #0d1117; stroke: #30363d; }
-  .title { fill: #f0f6fc; font: 600 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
-  .count { fill: #8b949e; font: 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
-  .month,.day { fill: #8b949e; font: 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .title { fill: #f0f6fc; font: 700 17px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .subtitle { fill: #8b949e; font: 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .stat-value { fill: #f0f6fc; font: 700 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .stat-label { fill: #8b949e; font: 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .live { fill: #39d353; font: 700 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; letter-spacing: .4px; }
+  .grid { stroke: #21262d; stroke-width: 1; }
+  .axis-label { fill: #6e7681; font: 9px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .dot { fill: #39d353; opacity: .48; transition: opacity .15s ease, transform .15s ease; transform-box: fill-box; transform-origin: center; }
+  .hit { fill: transparent; }
+  .tooltip { opacity: 0; pointer-events: none; transition: opacity .12s ease; }
+  .tooltip rect { fill: #161b22; stroke: #30363d; }
+  .tooltip-date { fill: #8b949e; font: 10px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .tooltip-count { fill: #f0f6fc; font: 700 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; }
+  .point:hover .tooltip { opacity: 1; }
+  .point:hover .dot { opacity: 1; transform: scale(1.9); }
+  @media (prefers-reduced-motion: reduce) {
+    .motion-marker { display: none; }
+  }
 </style>
-<rect class="bg" x="0.5" y="0.5" width="807" height="171" rx="8" />
-<text x="18" y="23" class="title">Contributions</text>
-<text x="790" y="23" text-anchor="end" class="count">2029 contributions in the last year</text>
-<text x="70" y="36" class="month">Oct</text>
-<text x="126" y="36" class="month">Nov</text>
-<text x="196" y="36" class="month">Dec</text>
-<text x="252" y="36" class="month">Jan</text>
-<text x="308" y="36" class="month">Feb</text>
-<text x="364" y="36" class="month">Mar</text>
-<text x="434" y="36" class="month">Apr</text>
-<text x="490" y="36" class="month">May</text>
-<text x="560" y="36" class="month">Jun</text>
-<text x="616" y="36" class="month">Jul</text>
-<text x="672" y="36" class="month">Aug</text>
-<text x="742" y="36" class="month">Sep</text>
-<text x="18" y="71" class="day">Mon</text>
-<text x="18" y="99" class="day">Wed</text>
-<text x="18" y="127" class="day">Fri</text>
-<g><title>0 contributions on 2025-09-21</title><rect x="42" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-22</title><rect x="42" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-23</title><rect x="42" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-24</title><rect x="42" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-25</title><rect x="42" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-26</title><rect x="42" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-27</title><rect x="42" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-28</title><rect x="56" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-29</title><rect x="56" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-09-30</title><rect x="56" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-01</title><rect x="56" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-02</title><rect x="56" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-03</title><rect x="56" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-04</title><rect x="56" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-05</title><rect x="70" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-06</title><rect x="70" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-07</title><rect x="70" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-08</title><rect x="70" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-09</title><rect x="70" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-10</title><rect x="70" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-11</title><rect x="70" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-12</title><rect x="84" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-13</title><rect x="84" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-14</title><rect x="84" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-15</title><rect x="84" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-16</title><rect x="84" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-17</title><rect x="84" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-18</title><rect x="84" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-19</title><rect x="98" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-20</title><rect x="98" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-21</title><rect x="98" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-22</title><rect x="98" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-23</title><rect x="98" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-24</title><rect x="98" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-25</title><rect x="98" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-26</title><rect x="112" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-27</title><rect x="112" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-28</title><rect x="112" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-29</title><rect x="112" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-30</title><rect x="112" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-10-31</title><rect x="112" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-01</title><rect x="112" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-02</title><rect x="126" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-03</title><rect x="126" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-04</title><rect x="126" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-05</title><rect x="126" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-06</title><rect x="126" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-07</title><rect x="126" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-08</title><rect x="126" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-09</title><rect x="140" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-10</title><rect x="140" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-11</title><rect x="140" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-12</title><rect x="140" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-13</title><rect x="140" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-14</title><rect x="140" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-15</title><rect x="140" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-16</title><rect x="154" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-17</title><rect x="154" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-18</title><rect x="154" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-19</title><rect x="154" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-20</title><rect x="154" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-21</title><rect x="154" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-22</title><rect x="154" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-23</title><rect x="168" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-24</title><rect x="168" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-25</title><rect x="168" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-26</title><rect x="168" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-27</title><rect x="168" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-28</title><rect x="168" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-29</title><rect x="168" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-11-30</title><rect x="182" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-01</title><rect x="182" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-02</title><rect x="182" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-03</title><rect x="182" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-04</title><rect x="182" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-05</title><rect x="182" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-06</title><rect x="182" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-07</title><rect x="196" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-08</title><rect x="196" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-09</title><rect x="196" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-10</title><rect x="196" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-11</title><rect x="196" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-12</title><rect x="196" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-13</title><rect x="196" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-14</title><rect x="210" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-15</title><rect x="210" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-16</title><rect x="210" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-17</title><rect x="210" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-18</title><rect x="210" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-19</title><rect x="210" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-20</title><rect x="210" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-21</title><rect x="224" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-22</title><rect x="224" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-23</title><rect x="224" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-24</title><rect x="224" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-25</title><rect x="224" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-26</title><rect x="224" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-27</title><rect x="224" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-28</title><rect x="238" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-29</title><rect x="238" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-30</title><rect x="238" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2025-12-31</title><rect x="238" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-01</title><rect x="238" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-02</title><rect x="238" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-03</title><rect x="238" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-04</title><rect x="252" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-05</title><rect x="252" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-06</title><rect x="252" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-07</title><rect x="252" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-08</title><rect x="252" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-09</title><rect x="252" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-10</title><rect x="252" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-11</title><rect x="266" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-12</title><rect x="266" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-13</title><rect x="266" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-14</title><rect x="266" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-15</title><rect x="266" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-16</title><rect x="266" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-17</title><rect x="266" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-18</title><rect x="280" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-19</title><rect x="280" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-20</title><rect x="280" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-21</title><rect x="280" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-22</title><rect x="280" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-23</title><rect x="280" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-24</title><rect x="280" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-25</title><rect x="294" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-26</title><rect x="294" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-27</title><rect x="294" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-28</title><rect x="294" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-29</title><rect x="294" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-30</title><rect x="294" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-01-31</title><rect x="294" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-01</title><rect x="308" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-02</title><rect x="308" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-03</title><rect x="308" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-04</title><rect x="308" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-05</title><rect x="308" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-06</title><rect x="308" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-07</title><rect x="308" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-08</title><rect x="322" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-09</title><rect x="322" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-10</title><rect x="322" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-11</title><rect x="322" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-12</title><rect x="322" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-13</title><rect x="322" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-14</title><rect x="322" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-15</title><rect x="336" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-16</title><rect x="336" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-17</title><rect x="336" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-18</title><rect x="336" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-19</title><rect x="336" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-20</title><rect x="336" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-21</title><rect x="336" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-22</title><rect x="350" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-23</title><rect x="350" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-24</title><rect x="350" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-25</title><rect x="350" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-26</title><rect x="350" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-27</title><rect x="350" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-02-28</title><rect x="350" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-01</title><rect x="364" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-02</title><rect x="364" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-03</title><rect x="364" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-04</title><rect x="364" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-05</title><rect x="364" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-06</title><rect x="364" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-07</title><rect x="364" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-08</title><rect x="378" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-09</title><rect x="378" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-10</title><rect x="378" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-11</title><rect x="378" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-12</title><rect x="378" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-13</title><rect x="378" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-14</title><rect x="378" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-15</title><rect x="392" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-16</title><rect x="392" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-17</title><rect x="392" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-18</title><rect x="392" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-19</title><rect x="392" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-20</title><rect x="392" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-21</title><rect x="392" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-22</title><rect x="406" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-23</title><rect x="406" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-24</title><rect x="406" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-25</title><rect x="406" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-26</title><rect x="406" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-27</title><rect x="406" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-28</title><rect x="406" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-29</title><rect x="420" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-30</title><rect x="420" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-03-31</title><rect x="420" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-01</title><rect x="420" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-02</title><rect x="420" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-03</title><rect x="420" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-04</title><rect x="420" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-05</title><rect x="434" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-06</title><rect x="434" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-07</title><rect x="434" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-08</title><rect x="434" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-09</title><rect x="434" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-10</title><rect x="434" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-11</title><rect x="434" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-12</title><rect x="448" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-13</title><rect x="448" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-14</title><rect x="448" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-15</title><rect x="448" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-16</title><rect x="448" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-17</title><rect x="448" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-18</title><rect x="448" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-19</title><rect x="462" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-20</title><rect x="462" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-21</title><rect x="462" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-22</title><rect x="462" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-23</title><rect x="462" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-24</title><rect x="462" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-25</title><rect x="462" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-26</title><rect x="476" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-27</title><rect x="476" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-28</title><rect x="476" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-29</title><rect x="476" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-04-30</title><rect x="476" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-01</title><rect x="476" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-02</title><rect x="476" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-03</title><rect x="490" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-04</title><rect x="490" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-05</title><rect x="490" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-06</title><rect x="490" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-07</title><rect x="490" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-08</title><rect x="490" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-09</title><rect x="490" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-10</title><rect x="504" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-11</title><rect x="504" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-12</title><rect x="504" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-13</title><rect x="504" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-14</title><rect x="504" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-15</title><rect x="504" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-16</title><rect x="504" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-17</title><rect x="518" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-18</title><rect x="518" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-19</title><rect x="518" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-20</title><rect x="518" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-21</title><rect x="518" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-22</title><rect x="518" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-23</title><rect x="518" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-24</title><rect x="532" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-25</title><rect x="532" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-26</title><rect x="532" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-27</title><rect x="532" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-28</title><rect x="532" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-29</title><rect x="532" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-30</title><rect x="532" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-05-31</title><rect x="546" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-01</title><rect x="546" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-02</title><rect x="546" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-03</title><rect x="546" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-04</title><rect x="546" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-05</title><rect x="546" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-06</title><rect x="546" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-07</title><rect x="560" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-08</title><rect x="560" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-09</title><rect x="560" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-10</title><rect x="560" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-11</title><rect x="560" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-12</title><rect x="560" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-13</title><rect x="560" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-14</title><rect x="574" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-15</title><rect x="574" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-16</title><rect x="574" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-17</title><rect x="574" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-18</title><rect x="574" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-19</title><rect x="574" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-20</title><rect x="574" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>2 contributions on 2026-06-21</title><rect x="588" y="48" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>0 contributions on 2026-06-22</title><rect x="588" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-23</title><rect x="588" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-24</title><rect x="588" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-25</title><rect x="588" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-26</title><rect x="588" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-27</title><rect x="588" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-28</title><rect x="602" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-29</title><rect x="602" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-06-30</title><rect x="602" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-01</title><rect x="602" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-02</title><rect x="602" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-03</title><rect x="602" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-04</title><rect x="602" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-05</title><rect x="616" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-06</title><rect x="616" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-07</title><rect x="616" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-08</title><rect x="616" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-09</title><rect x="616" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-10</title><rect x="616" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-11</title><rect x="616" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-12</title><rect x="630" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-13</title><rect x="630" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-14</title><rect x="630" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-15</title><rect x="630" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-16</title><rect x="630" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-17</title><rect x="630" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-18</title><rect x="630" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-19</title><rect x="644" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-20</title><rect x="644" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-21</title><rect x="644" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-22</title><rect x="644" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-23</title><rect x="644" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-24</title><rect x="644" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-25</title><rect x="644" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-26</title><rect x="658" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-27</title><rect x="658" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-28</title><rect x="658" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-29</title><rect x="658" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-30</title><rect x="658" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-07-31</title><rect x="658" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-01</title><rect x="658" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-02</title><rect x="672" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-03</title><rect x="672" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-04</title><rect x="672" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-05</title><rect x="672" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-06</title><rect x="672" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-07</title><rect x="672" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-08</title><rect x="672" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-09</title><rect x="686" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-10</title><rect x="686" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-11</title><rect x="686" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-12</title><rect x="686" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-13</title><rect x="686" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-14</title><rect x="686" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-15</title><rect x="686" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-16</title><rect x="700" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-17</title><rect x="700" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-18</title><rect x="700" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-19</title><rect x="700" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-20</title><rect x="700" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-21</title><rect x="700" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-22</title><rect x="700" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-23</title><rect x="714" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-24</title><rect x="714" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-25</title><rect x="714" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-26</title><rect x="714" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-27</title><rect x="714" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-28</title><rect x="714" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-29</title><rect x="714" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-30</title><rect x="728" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-08-31</title><rect x="728" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-01</title><rect x="728" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-02</title><rect x="728" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-03</title><rect x="728" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-04</title><rect x="728" y="118" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-05</title><rect x="728" y="132" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-06</title><rect x="742" y="48" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-07</title><rect x="742" y="62" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-08</title><rect x="742" y="76" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-09</title><rect x="742" y="90" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>0 contributions on 2026-09-10</title><rect x="742" y="104" width="11" height="11" rx="2" fill="#ebedf0" /></g>
-<g><title>3 contributions on 2026-09-11</title><rect x="742" y="118" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>4 contributions on 2026-09-12</title><rect x="742" y="132" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>12 contributions on 2026-09-13</title><rect x="756" y="48" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>105 contributions on 2026-09-14</title><rect x="756" y="62" width="11" height="11" rx="2" fill="#40c463" /></g>
-<g><title>210 contributions on 2026-09-15</title><rect x="756" y="76" width="11" height="11" rx="2" fill="#216e39" /></g>
-<g><title>136 contributions on 2026-09-16</title><rect x="756" y="90" width="11" height="11" rx="2" fill="#30a14e" /></g>
-<g><title>236 contributions on 2026-09-17</title><rect x="756" y="104" width="11" height="11" rx="2" fill="#216e39" /></g>
-<g><title>469 contributions on 2026-09-18</title><rect x="756" y="118" width="11" height="11" rx="2" fill="#216e39" /></g>
-<g><title>103 contributions on 2026-09-19</title><rect x="756" y="132" width="11" height="11" rx="2" fill="#40c463" /></g>
-<g><title>113 contributions on 2026-09-20</title><rect x="770" y="48" width="11" height="11" rx="2" fill="#40c463" /></g>
-<g><title>33 contributions on 2026-09-21</title><rect x="770" y="62" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>231 contributions on 2026-09-22</title><rect x="770" y="76" width="11" height="11" rx="2" fill="#216e39" /></g>
-<g><title>220 contributions on 2026-09-23</title><rect x="770" y="90" width="11" height="11" rx="2" fill="#216e39" /></g>
-<g><title>115 contributions on 2026-09-24</title><rect x="770" y="104" width="11" height="11" rx="2" fill="#40c463" /></g>
-<g><title>35 contributions on 2026-09-25</title><rect x="770" y="118" width="11" height="11" rx="2" fill="#9be9a8" /></g>
-<g><title>2 contributions on 2026-09-26</title><rect x="770" y="132" width="11" height="11" rx="2" fill="#9be9a8" /></g>
+
+<rect class="bg" x=".5" y=".5" width="899" height="303" rx="12" />
+
+<text x="22" y="29" class="title">Contribution Pulse</text>
+<text x="22" y="47" class="subtitle">Daily GitHub activity · last 90 days</text>
+
+<circle cx="794" cy="24" r="4" fill="#39d353">
+  <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite" />
+</circle>
+<text x="804" y="28" class="live">UPDATED DAILY</text>
+
+<g transform="translate(22 59)">
+  <text x="0" y="15" class="stat-value">2,029</text>
+  <text x="0" y="29" class="stat-label">LAST 12 MONTHS</text>
+
+  <text x="154" y="15" class="stat-value">2,027</text>
+  <text x="154" y="29" class="stat-label">LAST 90 DAYS</text>
+
+  <text x="290" y="15" class="stat-value">16</text>
+  <text x="290" y="29" class="stat-label">ACTIVE DAYS</text>
+
+  <text x="408" y="15" class="stat-value">469</text>
+  <text x="408" y="29" class="stat-label">BEST DAY · Sep 18</text>
+
+  <text x="580" y="15" class="stat-value">2</text>
+  <text x="580" y="29" class="stat-label">LATEST · Sep 26</text>
+</g>
+
+
+<line x1="54" y1="258.00" x2="874" y2="258.00" class="grid" />
+<text x="44" y="262.00" text-anchor="end" class="axis-label">0</text>
+
+<line x1="54" y1="216.50" x2="874" y2="216.50" class="grid" />
+<text x="44" y="220.50" text-anchor="end" class="axis-label">117</text>
+
+<line x1="54" y1="175.00" x2="874" y2="175.00" class="grid" />
+<text x="44" y="179.00" text-anchor="end" class="axis-label">235</text>
+
+<line x1="54" y1="133.50" x2="874" y2="133.50" class="grid" />
+<text x="44" y="137.50" text-anchor="end" class="axis-label">352</text>
+
+<line x1="54" y1="92.00" x2="874" y2="92.00" class="grid" />
+<text x="44" y="96.00" text-anchor="end" class="axis-label">469</text>
+
+<path d="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,257.29 L874.00,258 L54.00,258 Z" fill="url(#areaGradient)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="1.6s" fill="freeze" />
+</path>
+
+<path d="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,257.29" pathLength="1000" fill="none" stroke="#39d353" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1000" stroke-dashoffset="1000">
+  <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="1.8s" fill="freeze" />
+</path>
+
+
+<g class="point" transform="translate(54.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jun 28, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jun 28, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(63.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jun 29, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jun 29, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(72.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jun 30, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jun 30, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(81.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 1, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 1, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(90.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 2, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 2, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(99.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 3, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 3, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(108.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 4, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 4, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(117.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(10.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 5, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 5, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(126.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 6, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 6, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(136.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 7, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 7, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(145.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 8, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 8, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(154.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 9, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 9, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(163.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 10, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 10, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(172.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 11, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 11, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(181.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 12, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 12, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(190.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 13, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 13, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(199.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 14, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 14, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(208.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 15, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 15, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(218.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 16, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 16, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(227.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 17, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 17, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(236.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 18, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 18, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(245.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 19, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 19, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(254.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 20, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 20, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(263.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 21, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 21, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(272.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 22, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 22, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(281.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 23, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 23, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(290.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 24, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 24, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(300.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 25, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 25, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(309.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 26, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 26, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(318.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 27, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 27, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(327.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 28, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 28, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(336.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 29, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 29, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(345.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 30, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 30, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(354.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Jul 31, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Jul 31, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(363.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 1, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 1, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(372.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 2, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 2, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(382.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 3, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 3, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(391.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 4, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 4, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(400.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 5, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 5, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(409.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 6, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 6, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(418.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 7, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 7, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(427.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 8, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 8, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(436.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 9, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 9, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(445.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 10, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 10, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(454.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 11, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 11, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(464.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 12, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 12, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(473.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 13, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 13, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(482.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 14, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 14, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(491.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 15, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 15, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(500.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 16, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 16, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(509.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 17, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 17, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(518.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 18, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 18, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(527.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 19, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 19, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(536.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 20, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 20, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(546.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 21, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 21, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(555.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 22, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 22, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(564.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 23, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 23, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(573.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 24, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 24, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(582.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 25, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 25, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(591.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 26, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 26, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(600.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 27, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 27, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(609.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 28, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 28, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(618.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 29, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 29, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(628.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 30, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 30, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(637.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Aug 31, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Aug 31, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(646.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 1, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 1, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(655.33 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 2, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 2, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(664.44 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 3, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 3, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(673.56 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 4, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 4, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(682.67 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 5, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 5, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(691.78 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 6, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 6, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(700.89 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 7, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 7, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(710.00 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 8, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 8, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(719.11 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 9, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 9, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(728.22 258.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="1.8" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 10, 2026</text>
+    <text x="10" y="34" class="tooltip-count">0 contributions</text>
+  </g>
+  <title>Sep 10, 2026: 0 contributions</title>
+</g>
+
+<g class="point" transform="translate(737.33 256.94)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 11, 2026</text>
+    <text x="10" y="34" class="tooltip-count">3 contributions</text>
+  </g>
+  <title>Sep 11, 2026: 3 contributions</title>
+</g>
+
+<g class="point" transform="translate(746.44 256.58)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 12, 2026</text>
+    <text x="10" y="34" class="tooltip-count">4 contributions</text>
+  </g>
+  <title>Sep 12, 2026: 4 contributions</title>
+</g>
+
+<g class="point" transform="translate(755.56 253.75)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 13, 2026</text>
+    <text x="10" y="34" class="tooltip-count">12 contributions</text>
+  </g>
+  <title>Sep 13, 2026: 12 contributions</title>
+</g>
+
+<g class="point" transform="translate(764.67 220.84)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 14, 2026</text>
+    <text x="10" y="34" class="tooltip-count">105 contributions</text>
+  </g>
+  <title>Sep 14, 2026: 105 contributions</title>
+</g>
+
+<g class="point" transform="translate(773.78 183.67)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 15, 2026</text>
+    <text x="10" y="34" class="tooltip-count">210 contributions</text>
+  </g>
+  <title>Sep 15, 2026: 210 contributions</title>
+</g>
+
+<g class="point" transform="translate(782.89 209.86)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 16, 2026</text>
+    <text x="10" y="34" class="tooltip-count">136 contributions</text>
+  </g>
+  <title>Sep 16, 2026: 136 contributions</title>
+</g>
+
+<g class="point" transform="translate(792.00 174.47)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 17, 2026</text>
+    <text x="10" y="34" class="tooltip-count">236 contributions</text>
+  </g>
+  <title>Sep 17, 2026: 236 contributions</title>
+</g>
+
+<g class="point" transform="translate(801.11 92.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-66.00 14.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 18, 2026</text>
+    <text x="10" y="34" class="tooltip-count">469 contributions</text>
+  </g>
+  <title>Sep 18, 2026: 469 contributions</title>
+</g>
+
+<g class="point" transform="translate(810.22 221.54)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 19, 2026</text>
+    <text x="10" y="34" class="tooltip-count">103 contributions</text>
+  </g>
+  <title>Sep 19, 2026: 103 contributions</title>
+</g>
+
+<g class="point" transform="translate(819.33 218.00)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 20, 2026</text>
+    <text x="10" y="34" class="tooltip-count">113 contributions</text>
+  </g>
+  <title>Sep 20, 2026: 113 contributions</title>
+</g>
+
+<g class="point" transform="translate(828.44 246.32)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 21, 2026</text>
+    <text x="10" y="34" class="tooltip-count">33 contributions</text>
+  </g>
+  <title>Sep 21, 2026: 33 contributions</title>
+</g>
+
+<g class="point" transform="translate(837.56 176.24)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 22, 2026</text>
+    <text x="10" y="34" class="tooltip-count">231 contributions</text>
+  </g>
+  <title>Sep 22, 2026: 231 contributions</title>
+</g>
+
+<g class="point" transform="translate(846.67 180.13)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 23, 2026</text>
+    <text x="10" y="34" class="tooltip-count">220 contributions</text>
+  </g>
+  <title>Sep 23, 2026: 220 contributions</title>
+</g>
+
+<g class="point" transform="translate(855.78 217.30)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 24, 2026</text>
+    <text x="10" y="34" class="tooltip-count">115 contributions</text>
+  </g>
+  <title>Sep 24, 2026: 115 contributions</title>
+</g>
+
+<g class="point" transform="translate(864.89 245.61)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 25, 2026</text>
+    <text x="10" y="34" class="tooltip-count">35 contributions</text>
+  </g>
+  <title>Sep 25, 2026: 35 contributions</title>
+</g>
+
+<g class="point" transform="translate(874.00 257.29)">
+  <circle class="hit" r="9" />
+  <circle class="dot" r="2.6" />
+  <g class="tooltip" transform="translate(-142.00 -58.00)">
+    <rect width="132" height="44" rx="7" />
+    <text x="10" y="17" class="tooltip-date">Sep 26, 2026</text>
+    <text x="10" y="34" class="tooltip-count">2 contributions</text>
+  </g>
+  <title>Sep 26, 2026: 2 contributions</title>
+</g>
+
+<circle class="motion-marker" cx="0" cy="0" r="4.8" fill="#7ee787" stroke="#0d1117" stroke-width="2" filter="url(#glow)">
+  <animateMotion begin="1.7s" dur="12s" repeatCount="indefinite" path="M54.00,258.00 L63.11,258.00 L72.22,258.00 L81.33,258.00 L90.44,258.00 L99.56,258.00 L108.67,258.00 L117.78,258.00 L126.89,258.00 L136.00,258.00 L145.11,258.00 L154.22,258.00 L163.33,258.00 L172.44,258.00 L181.56,258.00 L190.67,258.00 L199.78,258.00 L208.89,258.00 L218.00,258.00 L227.11,258.00 L236.22,258.00 L245.33,258.00 L254.44,258.00 L263.56,258.00 L272.67,258.00 L281.78,258.00 L290.89,258.00 L300.00,258.00 L309.11,258.00 L318.22,258.00 L327.33,258.00 L336.44,258.00 L345.56,258.00 L354.67,258.00 L363.78,258.00 L372.89,258.00 L382.00,258.00 L391.11,258.00 L400.22,258.00 L409.33,258.00 L418.44,258.00 L427.56,258.00 L436.67,258.00 L445.78,258.00 L454.89,258.00 L464.00,258.00 L473.11,258.00 L482.22,258.00 L491.33,258.00 L500.44,258.00 L509.56,258.00 L518.67,258.00 L527.78,258.00 L536.89,258.00 L546.00,258.00 L555.11,258.00 L564.22,258.00 L573.33,258.00 L582.44,258.00 L591.56,258.00 L600.67,258.00 L609.78,258.00 L618.89,258.00 L628.00,258.00 L637.11,258.00 L646.22,258.00 L655.33,258.00 L664.44,258.00 L673.56,258.00 L682.67,258.00 L691.78,258.00 L700.89,258.00 L710.00,258.00 L719.11,258.00 L728.22,258.00 L737.33,256.94 L746.44,256.58 L755.56,253.75 L764.67,220.84 L773.78,183.67 L782.89,209.86 L792.00,174.47 L801.11,92.00 L810.22,221.54 L819.33,218.00 L828.44,246.32 L837.56,176.24 L846.67,180.13 L855.78,217.30 L864.89,245.61 L874.00,257.29" />
+</circle>
+
+<text x="54.00" y="286" class="axis-label">Jun</text>
+<text x="81.33" y="286" class="axis-label">Jul</text>
+<text x="363.78" y="286" class="axis-label">Aug</text>
+<text x="646.22" y="286" class="axis-label">Sep</text>
+
+<text x="874" y="286" text-anchor="end" class="axis-label">Hover a point for details · click from the README to open the interactive SVG</text>
 </svg>

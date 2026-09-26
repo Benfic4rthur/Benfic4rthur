@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v4.svg" alt="Arthur Benfica Graff" width="100%" />
+<img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v5.svg" alt="Arthur Benfica Graff" width="100%" />
 
 <br/>
 

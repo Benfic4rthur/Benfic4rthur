@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-label="Tech constellation">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset=".5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="glow2" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x=".5" y=".5" width="999" height="269" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <text x="36" y="38" fill="#f0f6fc" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">TECH CONSTELLATION</text>
+  <text x="36" y="58" fill="#8b949e" font-size="11" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">The stack I reach for when turning ideas into software.</text>
+
+  <g transform="translate(500 150)">
+    <ellipse rx="345" ry="68" fill="none" stroke="#21262d" stroke-width="1.3"/>
+    <ellipse rx="245" ry="98" fill="none" stroke="#21262d" stroke-width="1.1"/>
+    <circle r="54" fill="#161b22" stroke="url(#ring)" stroke-width="2"/>
+    <circle r="38" fill="none" stroke="#30363d" stroke-width="1"/>
+    <text y="-3" text-anchor="middle" fill="#f0f6fc" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">BUILD</text>
+    <text y="17" text-anchor="middle" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">SHIP · LEARN · REPEAT</text>
+
+    <circle cx="0" cy="-98" r="4" fill="#58a6ff" filter="url(#glow2)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="345" cy="0" r="4" fill="#39d353" filter="url(#glow2)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="17s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <g transform="translate(84 119)"><rect width="132" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="66" y="24" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="700">TypeScript</text></g>
+    <g transform="translate(176 58)"><rect width="112" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="56" y="24" text-anchor="middle" fill="#79c0ff" font-size="12" font-weight="700">React</text></g>
+    <g transform="translate(326 74)"><rect width="114" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="57" y="24" text-anchor="middle" fill="#a5d6ff" font-size="12" font-weight="700">Electron</text></g>
+    <g transform="translate(687 58)"><rect width="114" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="57" y="24" text-anchor="middle" fill="#7ee787" font-size="12" font-weight="700">Node.js</text></g>
+    <g transform="translate(796 119)"><rect width="112" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="56" y="24" text-anchor="middle" fill="#d2a8ff" font-size="12" font-weight="700">Python</text></g>
+    <g transform="translate(682 194)"><rect width="132" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="66" y="24" text-anchor="middle" fill="#ffa657" font-size="12" font-weight="700">PostgreSQL</text></g>
+    <g transform="translate(181 194)"><rect width="104" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="52" y="24" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="700">Git</text></g>
+    <g transform="translate(548 191)"><rect width="92" height="38" rx="19" fill="#161b22" stroke="#30363d"/><text x="46" y="24" text-anchor="middle" fill="#ff7b72" font-size="12" font-weight="700">Java</text></g>
+  </g>
+</svg>

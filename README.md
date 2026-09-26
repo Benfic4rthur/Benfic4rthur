@@ -2,11 +2,13 @@
 
 <div align="center">
 
-  <img src="./assets/contributions.svg" alt="Calendário de contribuições do GitHub" width="100%" />
+  <a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions.svg">
+    <img src="./assets/contributions.svg" alt="Animated GitHub contribution activity" width="100%" />
+  </a>
 
   <br/>
 
-  <sub>Contribuições dos últimos 12 meses, atualizadas automaticamente pelo GitHub Actions.</sub>
+  <sub>Daily contribution pulse from the last 90 days, updated automatically. Click the graph and hover the points for exact values.</sub>
 
 </div>
 
@@ -77,7 +79,3 @@
   <p><b>Visitors Count</b></p>
   <img src="https://komarev.com/ghpvc/?username=Benfic4rthur&label=VISITORS&style=flat-square" alt="Contador de visitantes" />
 </div>
-<!--[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Benfic4rthur&bg_color=000000&color=164fc0&line=f5f5f5&point=757070&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Benfic4rthur&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
-</p>

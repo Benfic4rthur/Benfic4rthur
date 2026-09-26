@@ -70,11 +70,11 @@ const latestDay = days.at(-1) || { contributionCount: 0, date: '' };
 
 const width = 900;
 const height = 230;
-const cell = 11;
-const gap = 3;
-const step = cell + gap;
-const left = 78;
+const cell = 12;
+const left = 54;
+const right = 30;
 const top = 104;
+const step = (width - left - right - cell) / Math.max(1, weeks.length - 1);
 
 const levelColor = {
   NONE: '#161b22',
@@ -123,8 +123,8 @@ const latestLabel = number.format(Number(latestDay.contributionCount || 0));
 const peakDate = peakDay.date ? shortDate.format(new Date(`${peakDay.date}T00:00:00Z`)) : '—';
 const latestDate = latestDay.date ? shortDate.format(new Date(`${latestDay.date}T00:00:00Z`)) : '—';
 
-const legendX = width - 150;
-const legendY = height - 15;
+const legendX = width - 174;
+const legendY = height - 18;
 const legendColors = [
   levelColor.NONE,
   levelColor.FIRST_QUARTILE,
@@ -188,9 +188,9 @@ ${cells.join('\n')}
 
 <text x="${legendX}" y="${legendY}" class="axis">Less</text>
 ${legendSquares}
-<text x="${legendX + 111}" y="${legendY}" class="axis">More</text>
+<text x="${legendX + 116}" y="${legendY}" class="axis">More</text>
 
-<text x="20" y="${height - 15}" class="axis">Each square = 1 day · color intensity = contribution volume</text>
+<text x="20" y="${height - 18}" class="axis">Each square = 1 day · color intensity = contribution volume</text>
 </svg>
 `;
 
@@ -200,7 +200,7 @@ fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `grid-v1-${latestDay.date}-${calendar.totalContributions}`;
+  const cacheKey = `grid-v2-${latestDay.date}-${calendar.totalContributions}`;
   const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(

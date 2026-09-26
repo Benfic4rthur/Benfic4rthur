@@ -69,11 +69,11 @@ const peakDay = days.reduce((best, day) => (
 const latestDay = days.at(-1) || { contributionCount: 0, date: '' };
 
 const width = 900;
-const height = 250;
+const height = 258;
 const cell = 12;
 const left = 54;
 const right = 30;
-const top = 104;
+const top = 112;
 const step = (width - left - right - cell) / Math.max(1, weeks.length - 1);
 
 const levelColor = {
@@ -114,7 +114,7 @@ for (let x = 0; x < weeks.length; x += 1) {
 
   const date = new Date(`${first.date}T00:00:00Z`);
   const label = date.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
-  monthLabels.push(`<text x="${left + x * step}" y="${top - 13}" class="axis">${label}</text>`);
+  monthLabels.push(`<text x="${left + x * step}" y="${top - 5}" class="axis">${label}</text>`);
 }
 
 const totalLabel = number.format(calendar.totalContributions);
@@ -194,14 +194,14 @@ ${legendSquares}
 </svg>
 `;
 
-const output = path.resolve('assets/contributions-grid-v3.svg');
+const output = path.resolve('assets/contributions-grid-v4.svg');
 fs.mkdirSync(path.dirname(output), { recursive: true });
 fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `grid-v4-${latestDay.date}-${calendar.totalContributions}`;
-  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v3.svg?v=${cacheKey}`;
+  const cacheKey = `grid-v5-${latestDay.date}-${calendar.totalContributions}`;
+  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v4.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(
     /(<img src=")(?:\.\/assets\/contributions-grid-v2\.svg|\.\/assets\/contributions-grid-v3\.svg|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-grid-v2\.svg(?:\?v=[^"]*)?|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-grid-v3\.svg(?:\?v=[^"]*)?)(" alt="Animated GitHub contribution activity")/,

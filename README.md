@@ -3,7 +3,7 @@
 <div align="center">
 
   <a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions.svg">
-    <img src="./assets/contributions.svg" alt="Animated GitHub contribution activity" width="100%" />
+    <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions.svg?v=2026-09-26-2034" alt="Animated GitHub contribution activity" width="100%" />
   </a>
 
   <br/>

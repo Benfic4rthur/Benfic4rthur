@@ -4,8 +4,8 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-matrix.svg">
-  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-matrix.svg?v=matrix-v1-2026-09-26-2069" alt="Animated GitHub contribution activity" width="100%" />
+<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid.svg">
+  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid.svg?v=grid-v1" alt="Animated GitHub contribution activity" width="100%" />
 </a>
 
 <br/>

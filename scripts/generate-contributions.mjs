@@ -69,7 +69,7 @@ const peakDay = days.reduce((best, day) => (
 const latestDay = days.at(-1) || { contributionCount: 0, date: '' };
 
 const width = 900;
-const height = 230;
+const height = 250;
 const cell = 12;
 const left = 54;
 const right = 30;
@@ -194,17 +194,17 @@ ${legendSquares}
 </svg>
 `;
 
-const output = path.resolve('assets/contributions-grid-v2.svg');
+const output = path.resolve('assets/contributions-grid-v3.svg');
 fs.mkdirSync(path.dirname(output), { recursive: true });
 fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `grid-v3-${latestDay.date}-${calendar.totalContributions}`;
-  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v2.svg?v=${cacheKey}`;
+  const cacheKey = `grid-v4-${latestDay.date}-${calendar.totalContributions}`;
+  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v3.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(
-    /(<img src=")(?:\.\/assets\/contributions-grid\.svg|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-grid\.svg(?:\?v=[^"]*)?)(" alt="Animated GitHub contribution activity")/,
+    /(<img src=")(?:\.\/assets\/contributions-grid-v2\.svg|\.\/assets\/contributions-grid-v3\.svg|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-grid-v2\.svg(?:\?v=[^"]*)?|https:\/\/raw\.githubusercontent\.com\/Benfic4rthur\/Benfic4rthur\/main\/assets\/contributions-grid-v3\.svg(?:\?v=[^"]*)?)(" alt="Animated GitHub contribution activity")/,
     `$1${imageUrl}$2`,
   );
   if (updatedReadme !== readme) fs.writeFileSync(readmePath, updatedReadme, 'utf8');

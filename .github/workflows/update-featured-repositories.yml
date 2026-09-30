@@ -2,9 +2,47 @@ name: Update featured repositories
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-featured-repositories.yml'
+      - 'scripts/generate-featured-repositories.txt'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-featured-repositories
+  cancel-in-progress: true
 
 jobs:
-  noop:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ready
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch public repositories
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "/users/Benfic4rthur/repos?type=owner&sort=pushed&direction=desc&per_page=100" > /tmp/profile-repos.json
+
+      - name: Generate featured repositories
+        env:
+          GITHUB_USER: Benfic4rthur
+        run: node scripts/generate-featured-repositories.txt /tmp/profile-repos.json
+
+      - name: Commit generated profile card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-header-v7.svg README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore(profile): update featured repositories"
+          git push

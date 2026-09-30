@@ -1,0 +1,99 @@
+const fs = require('fs');
+const crypto = require('crypto');
+
+const user = process.env.GITHUB_USER || 'Benfic4rthur';
+const inputPath = process.argv[2];
+const svgPath = 'assets/profile-header-v7.svg';
+const readmePath = 'README.md';
+const startMarker = '<!-- FEATURED_REPOS_START -->';
+const endMarker = '<!-- FEATURED_REPOS_END -->';
+const colors = ['#39d353', '#58a6ff', '#a371f7', '#f0883e', '#79c0ff'];
+
+if (!inputPath) throw new Error('Repository JSON input path is required.');
+
+const repos = JSON.parse(fs.readFileSync(inputPath, 'utf8'))
+  .filter((repo) =>
+    repo.owner?.login?.toLowerCase() === user.toLowerCase() &&
+    !repo.archived &&
+    !repo.fork &&
+    repo.name.toLowerCase() !== user.toLowerCase()
+  )
+  .sort((a, b) => new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0))
+  .slice(0, 5);
+
+if (!repos.length) throw new Error('No eligible repositories found.');
+
+const xml = (value) => String(value ?? '')
+  .replaceAll('&', '&amp;')
+  .replaceAll('<', '&lt;')
+  .replaceAll('>', '&gt;')
+  .replaceAll('"', '&quot;')
+  .replaceAll("'", '&apos;');
+
+const cut = (value, max) => {
+  const text = String(value ?? '').trim();
+  return text.length <= max ? text : text.slice(0, max - 1).trimEnd() + '…';
+};
+
+const tag = (repo) => {
+  const name = repo.name.toLowerCase();
+  if (name.includes('release')) return 'RELEASES';
+  if (name.includes('admin')) return 'ADMIN';
+  if (name.includes('site') || name.includes('web')) return 'WEB';
+  if (name.includes('license') || name.includes('server') || name.includes('api')) return 'BACKEND';
+  if (!name.includes('-')) return 'CORE APP';
+  return cut((repo.language || 'ACTIVE').toUpperCase(), 12);
+};
+
+const detail = (repo) => {
+  if (repo.description?.trim()) return cut(repo.description.toUpperCase(), 43);
+  const name = repo.name.toLowerCase();
+  if (name.includes('release')) return 'BUILDS · DOWNLOADS · DISTRIBUTION';
+  if (name.includes('admin')) return 'ADMIN · OPERATIONS · RECENTLY ACTIVE';
+  if (name.includes('site') || name.includes('web')) return 'PRODUCT SITE · RECENTLY ACTIVE';
+  if (name.includes('license') || name.includes('server') || name.includes('api')) return 'BACKEND · SERVICES · RECENTLY ACTIVE';
+  return cut((repo.language ? repo.language.toUpperCase() + ' · ' : '') + 'RECENTLY ACTIVE', 43);
+};
+
+const card = (repo, index) => {
+  const color = colors[index % colors.length];
+  const delay = index === 0 ? '0s' : '-' + (index * 3) + 's';
+
+  return [
+    '      <g transform="translate(14 140)">',
+    '        <animateTransform attributeName="transform" type="translate"',
+    '          values="14 140;14 140;14 38;14 38;14 -68;14 -68"',
+    '          keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="' + delay + '" repeatCount="indefinite"/>',
+    '        <animate attributeName="opacity"',
+    '          values="0;0;1;1;0;0"',
+    '          keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="' + delay + '" repeatCount="indefinite"/>',
+    '        <rect width="302" height="58" rx="11" fill="#161b22" stroke="' + color + '" stroke-opacity=".58"/>',
+    '        <circle cx="18" cy="19" r="4" fill="' + color + '"/>',
+    '        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,\'Segoe UI\',Helvetica,Arial,sans-serif" font-weight="800">' + xml(cut(repo.name, 28)) + '</text>',
+    '        <text x="286" y="21" text-anchor="end" fill="' + color + '" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">' + xml(tag(repo)) + '</text>',
+    '        <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">' + xml(detail(repo)) + '</text>',
+    '      </g>'
+  ].join('\n');
+};
+
+const generated = repos.map(card).join('\n\n');
+const svg = fs.readFileSync(svgPath, 'utf8');
+
+if (!svg.includes(startMarker) || !svg.includes(endMarker)) {
+  throw new Error('Featured repository markers not found.');
+}
+
+const before = svg.slice(0, svg.indexOf(startMarker) + startMarker.length);
+const after = svg.slice(svg.indexOf(endMarker));
+const nextSvg = before + '\n' + generated + '\n      ' + after;
+fs.writeFileSync(svgPath, nextSvg);
+
+const hash = crypto.createHash('sha1').update(generated).digest('hex').slice(0, 12);
+const readme = fs.readFileSync(readmePath, 'utf8');
+const nextReadme = readme.replace(
+  /profile-header-v7\.svg(?:\?v=[^"' )]+)?/g,
+  'profile-header-v7.svg?v=' + hash
+);
+fs.writeFileSync(readmePath, nextReadme);
+
+console.log('Featured repositories: ' + repos.map((repo) => repo.name).join(', '));

@@ -71,7 +71,7 @@
           keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="0s" repeatCount="indefinite"/>
         <rect width="302" height="58" rx="11" fill="#161b22" stroke="#39d353" stroke-opacity=".58"/>
         <circle cx="18" cy="19" r="4" fill="#39d353"/>
-        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">NATCONT-Releases</text>
+        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">notchficator-Releases</text>
         <text x="286" y="21" text-anchor="end" fill="#39d353" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">RELEASES</text>
         <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BUILDS · DOWNLOADS · DISTRIBUTION</text>
       </g>
@@ -85,7 +85,7 @@
           keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="-3s" repeatCount="indefinite"/>
         <rect width="302" height="58" rx="11" fill="#161b22" stroke="#58a6ff" stroke-opacity=".58"/>
         <circle cx="18" cy="19" r="4" fill="#58a6ff"/>
-        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Allm4-Releases</text>
+        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">NATCONT-Releases</text>
         <text x="286" y="21" text-anchor="end" fill="#58a6ff" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">RELEASES</text>
         <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BUILDS · DOWNLOADS · DISTRIBUTION</text>
       </g>
@@ -99,7 +99,7 @@
           keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="-6s" repeatCount="indefinite"/>
         <rect width="302" height="58" rx="11" fill="#161b22" stroke="#a371f7" stroke-opacity=".58"/>
         <circle cx="18" cy="19" r="4" fill="#a371f7"/>
-        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">LUM4-Releases</text>
+        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Allm4-Releases</text>
         <text x="286" y="21" text-anchor="end" fill="#a371f7" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">RELEASES</text>
         <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BUILDS · DOWNLOADS · DISTRIBUTION</text>
       </g>
@@ -113,9 +113,9 @@
           keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="-9s" repeatCount="indefinite"/>
         <rect width="302" height="58" rx="11" fill="#161b22" stroke="#f0883e" stroke-opacity=".58"/>
         <circle cx="18" cy="19" r="4" fill="#f0883e"/>
-        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">LUM4-site</text>
-        <text x="286" y="21" text-anchor="end" fill="#f0883e" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">WEB</text>
-        <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PRODUCT SITE · RECENTLY ACTIVE</text>
+        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">LUM4-Releases</text>
+        <text x="286" y="21" text-anchor="end" fill="#f0883e" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">RELEASES</text>
+        <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BUILDS · DOWNLOADS · DISTRIBUTION</text>
       </g>
 
       <g transform="translate(14 140)">
@@ -127,9 +127,9 @@
           keyTimes="0;.05;.12;.27;.34;1" dur="15s" begin="-12s" repeatCount="indefinite"/>
         <rect width="302" height="58" rx="11" fill="#161b22" stroke="#79c0ff" stroke-opacity=".58"/>
         <circle cx="18" cy="19" r="4" fill="#79c0ff"/>
-        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">Allm4-License-Server</text>
-        <text x="286" y="21" text-anchor="end" fill="#79c0ff" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">BACKEND</text>
-        <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BACKEND · SERVICES · RECENTLY ACTIVE</text>
+        <text x="31" y="23" fill="#f0f6fc" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800">LUM4-site</text>
+        <text x="286" y="21" text-anchor="end" fill="#79c0ff" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700">WEB</text>
+        <text x="18" y="44" fill="#8b949e" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PRODUCT SITE · RECENTLY ACTIVE</text>
       </g>
       <!-- FEATURED_REPOS_END -->
     </svg>

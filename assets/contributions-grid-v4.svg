@@ -27,17 +27,17 @@
 <text x="800" y="30" class="live">UPDATED DAILY</text>
 
 <g transform="translate(20 65)">
-  <text x="0" y="13" class="statValue">3,322</text>
+  <text x="0" y="13" class="statValue">3,439</text>
   <text x="0" y="27" class="statLabel">12 MONTH TOTAL</text>
 
-  <text x="168" y="13" class="statValue">26</text>
+  <text x="168" y="13" class="statValue">27</text>
   <text x="168" y="27" class="statLabel">ACTIVE DAYS</text>
 
   <text x="300" y="13" class="statValue">469</text>
   <text x="300" y="27" class="statLabel">PEAK · Sep 18</text>
 
-  <text x="455" y="13" class="statValue">75</text>
-  <text x="455" y="27" class="statLabel">LATEST · Oct 6</text>
+  <text x="455" y="13" class="statValue">15</text>
+  <text x="455" y="27" class="statLabel">LATEST · Oct 7</text>
 </g>
 
 <text x="54" y="107" class="axis">Oct</text>
@@ -2255,9 +2255,15 @@
   </rect>
 </g>
 <g>
-  <title>75 contributions on 2026-10-06</title>
-  <rect x="858" y="142.92307692307693" width="12" height="12" rx="2" fill="#0e4429" stroke="#0d1117" stroke-width=".6">
+  <title>177 contributions on 2026-10-06</title>
+  <rect x="858" y="142.92307692307693" width="12" height="12" rx="2" fill="#006d32" stroke="#0d1117" stroke-width=".6">
     <animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.640s" fill="freeze" />
+  </rect>
+</g>
+<g>
+  <title>15 contributions on 2026-10-07</title>
+  <rect x="858" y="158.3846153846154" width="12" height="12" rx="2" fill="#0e4429" stroke="#0d1117" stroke-width=".6">
+    <animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.648s" fill="freeze" />
   </rect>
 </g>
 

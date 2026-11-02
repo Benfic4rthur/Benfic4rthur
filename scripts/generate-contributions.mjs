@@ -160,10 +160,10 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${
 <text x="20" y="42" class="title">CONTRIBUTION ACTIVITY</text>
 <text x="20" y="57" class="subtitle">Daily activity across the last 12 months</text>
 
-<circle cx="${width - 134}" cy="27" r="4" fill="#39d353">
+<circle cx="${width - 112}" cy="27" r="4" fill="#39d353">
   <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
 </circle>
-<text x="${width - 122}" y="30" class="live">UPDATED 3× / DAY</text>
+<text x="${width - 100}" y="30" class="live">UPDATED DAILY</text>
 
 <g transform="translate(20 65)">
   <text x="0" y="13" class="statValue">${escapeXml(totalLabel)}</text>

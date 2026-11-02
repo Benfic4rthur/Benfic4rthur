@@ -3,7 +3,8 @@ name: Update contribution calendar
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '17 0,8,16 * * *'
+      timezone: America/Sao_Paulo
   push:
     branches: [main]
     paths:

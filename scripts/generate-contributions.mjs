@@ -223,14 +223,14 @@ ${legendSquares}
 </svg>
 `;
 
-const output = path.resolve('assets/contributions-grid-v4.svg');
+const output = path.resolve('assets/contributions-grid-v5.svg');
 fs.mkdirSync(path.dirname(output), { recursive: true });
 fs.writeFileSync(output, svg, 'utf8');
 
 const readmePath = path.resolve('README.md');
 if (fs.existsSync(readmePath)) {
-  const cacheKey = `grid-90d-${createHash('sha256').update(svg).digest('hex').slice(0, 12)}`;
-  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v4.svg?v=${cacheKey}`;
+  const cacheKey = `grid-v5-90d-${createHash('sha256').update(svg).digest('hex').slice(0, 12)}`;
+  const imageUrl = `https://raw.githubusercontent.com/${login}/${login}/main/assets/contributions-grid-v5.svg?v=${cacheKey}`;
   const readme = fs.readFileSync(readmePath, 'utf8');
   const updatedReadme = readme.replace(
     /(<img src=")[^"]+(" alt="Animated GitHub contribution activity")/,

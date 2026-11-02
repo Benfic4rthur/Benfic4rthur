@@ -6,8 +6,8 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v4.svg" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v4.svg?v=grid-90d-cc6ade89b129" alt="Animated GitHub contribution activity" width="100%" />
+<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v5.svg" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v5.svg?v=grid-v5-90d-32616f98f114" alt="Animated GitHub contribution activity" width="100%" />
 </a>
 
 <br/>

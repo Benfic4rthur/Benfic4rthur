@@ -97,12 +97,13 @@ const width = 900;
 const height = 258;
 const cellHeight = 12;
 const rowStep = 16;
-const columnGap = 4;
-const left = 54;
+const plotLeft = 54;
 const right = 30;
 const top = 112;
-const cellWidth = (width - left - right - columnGap * (weeks.length - 1)) / weeks.length;
-const columnStep = cellWidth + columnGap;
+const cellWidth = cellHeight;
+const columnStep = rowStep;
+const gridWidth = (weeks.length - 1) * columnStep + cellWidth;
+const left = plotLeft + (width - plotLeft - right - gridWidth) / 2;
 
 const levelColor = {
   NONE: '#161b22',
@@ -208,9 +209,9 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${
 
 ${monthLabels.join('\n')}
 
-<text x="20" y="${top + rowStep + 9}" class="axis">Mon</text>
-<text x="20" y="${top + rowStep * 3 + 9}" class="axis">Wed</text>
-<text x="20" y="${top + rowStep * 5 + 9}" class="axis">Fri</text>
+<text x="${left - 34}" y="${top + rowStep + 9}" class="axis">Mon</text>
+<text x="${left - 34}" y="${top + rowStep * 3 + 9}" class="axis">Wed</text>
+<text x="${left - 34}" y="${top + rowStep * 5 + 9}" class="axis">Fri</text>
 
 ${cells.join('\n')}
 
@@ -218,7 +219,7 @@ ${cells.join('\n')}
 ${legendSquares}
 <text x="${legendX + 116}" y="${legendY}" class="axis">More</text>
 
-<text x="20" y="${height - 18}" class="axis">Each cell = 1 day · color intensity = contribution volume</text>
+<text x="20" y="${height - 18}" class="axis">Each square = 1 day · color intensity = contribution volume</text>
 </svg>
 `;
 

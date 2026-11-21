@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v7.svg?v=d7fd489333ae" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v7.svg?v=d7fd489333ae" alt="Arthur Benfica Graff" width="100%" />
+<a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v7.svg?v=cf77a5fe68b7" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/profile-header-v7.svg?v=cf77a5fe68b7" alt="Arthur Benfica Graff" width="100%" />
 </a>
 
 <br/>

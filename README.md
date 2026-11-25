@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v6.svg" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v6.svg?v=grid-year-6fb8f9b05763" alt="Animated GitHub contribution activity" width="100%" />
+  <img src="https://raw.githubusercontent.com/Benfic4rthur/Benfic4rthur/main/assets/contributions-grid-v6.svg?v=grid-year-1f96b1029bb2" alt="Animated GitHub contribution activity" width="100%" />
 </a>
 
 <br/>
